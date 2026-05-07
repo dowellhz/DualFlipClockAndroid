@@ -57,9 +57,11 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Set;
 import java.util.TimeZone;
 import java.util.concurrent.ExecutorService;
@@ -67,6 +69,7 @@ import java.util.concurrent.Executors;
 
 public class MainActivity extends Activity {
     private static final int LOCATION_REQUEST = 31;
+    private static final int STAR_COUNT = 150;
     private static final String PREF_LAYOUT_MODE = "layoutMode";
     private static final String LAYOUT_STACKED = "stacked";
     private static final String LAYOUT_SIDE_BY_SIDE = "sideBySide";
@@ -584,6 +587,10 @@ public class MainActivity extends Activity {
     }
 
     private final class ClockSurface extends View {
+        private final float[] starX = new float[STAR_COUNT];
+        private final float[] starY = new float[STAR_COUNT];
+        private final float[] starRadius = new float[STAR_COUNT];
+        private final int[] starAlpha = new int[STAR_COUNT];
         private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
         private final Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         private final Camera flipCamera = new Camera();
@@ -612,6 +619,12 @@ public class MainActivity extends Activity {
             super(context);
             setBackgroundColor(Color.BLACK);
             textPaint.setTypeface(android.graphics.Typeface.create("sans", android.graphics.Typeface.BOLD));
+            for (int i = 0; i < STAR_COUNT; i++) {
+                starX[i] = ((i * 37) % 1000) / 1000f;
+                starY[i] = ((i * 83 + 19) % 1000) / 1000f;
+                starRadius[i] = 0.9f + ((i * 11) % 22) / 10f;
+                starAlpha[i] = 30 + (i * 17) % 80;
+            }
         }
 
         @Override
@@ -758,11 +771,11 @@ public class MainActivity extends Activity {
             paint.setColor(Color.BLACK);
             canvas.drawRect(0, 0, getWidth(), getHeight(), paint);
             paint.setColor(Color.WHITE);
-            for (int i = 0; i < 150; i++) {
-                float x = ((i * 37) % 1000) / 1000f * getWidth();
-                float y = ((i * 83 + 19) % 1000) / 1000f * getHeight();
-                paint.setAlpha(30 + (i * 17) % 80);
-                canvas.drawCircle(x, y, 0.9f + ((i * 11) % 22) / 10f, paint);
+            int width = getWidth();
+            int height = getHeight();
+            for (int i = 0; i < STAR_COUNT; i++) {
+                paint.setAlpha(starAlpha[i]);
+                canvas.drawCircle(starX[i] * width, starY[i] * height, starRadius[i], paint);
             }
             paint.setAlpha(255);
         }
@@ -1288,6 +1301,9 @@ public class MainActivity extends Activity {
         final double longitude;
         final TimeZone zone;
         final String searchable;
+        final String normalizedDisplayName;
+        final String normalizedEnglishName;
+        final boolean school;
 
         City(String id, String displayName, String englishName, String countryName, double latitude, double longitude, String zoneId) {
             this.id = id;
@@ -1298,6 +1314,9 @@ public class MainActivity extends Activity {
             this.longitude = longitude;
             this.zone = TimeZone.getTimeZone(zoneId);
             this.searchable = normalize(displayName + " " + englishName + " " + countryName + " " + aliases(id, englishName));
+            this.normalizedDisplayName = CityData.normalizePlace(displayName);
+            this.normalizedEnglishName = CityData.normalizePlace(englishName);
+            this.school = id.startsWith("uni-") || id.startsWith("hs-");
         }
 
         private static String normalize(String text) {
@@ -1330,6 +1349,8 @@ public class MainActivity extends Activity {
 
     private static final class CityData {
         static final List<City> CITIES = new ArrayList<>();
+        private static final Map<String, City> CITIES_BY_ID = new HashMap<>();
+        private static final List<City> PLACE_CITIES = new ArrayList<>();
         private static final Comparator<City> PICKER_ORDER = (left, right) -> {
             int category = Integer.compare(categoryRank(left), categoryRank(right));
             if (category != 0) return category;
@@ -1343,7 +1364,7 @@ public class MainActivity extends Activity {
         }
 
         static City monterey() {
-            City city = findNullable("us-monterey");
+            City city = CITIES_BY_ID.get("us-monterey");
             return city == null ? CITIES.get(0) : city;
         }
 
@@ -1354,26 +1375,21 @@ public class MainActivity extends Activity {
 
         static City findNullable(String id) {
             if (id == null || id.length() == 0) return null;
-            for (City city : CITIES) {
-                if (city.id.equals(id)) return city;
-            }
-            return null;
+            return CITIES_BY_ID.get(id);
         }
 
         static City matchKnownCity(String rawName) {
             if (rawName == null || rawName.trim().length() == 0) return null;
             String normalized = normalizePlace(rawName);
-            for (City city : CITIES) {
-                if (normalized.equals(normalizePlace(city.displayName))
-                        || normalized.equals(normalizePlace(city.englishName))) {
+            for (City city : PLACE_CITIES) {
+                if (normalized.equals(city.normalizedDisplayName)
+                        || normalized.equals(city.normalizedEnglishName)) {
                     return city;
                 }
             }
-            for (City city : CITIES) {
-                String display = normalizePlace(city.displayName);
-                String english = normalizePlace(city.englishName);
-                if (display.length() > 1 && normalized.contains(display)) return city;
-                if (english.length() > 2 && normalized.contains(english)) return city;
+            for (City city : PLACE_CITIES) {
+                if (city.normalizedDisplayName.length() > 1 && normalized.contains(city.normalizedDisplayName)) return city;
+                if (city.normalizedEnglishName.length() > 2 && normalized.contains(city.normalizedEnglishName)) return city;
             }
             return null;
         }
@@ -1389,7 +1405,15 @@ public class MainActivity extends Activity {
         }
 
         private static void city(String id, String displayName, String englishName, String countryName, double latitude, double longitude, String zoneId) {
-            CITIES.add(new City(id, displayName, englishName, countryName, latitude, longitude, zoneId));
+            addCity(new City(id, displayName, englishName, countryName, latitude, longitude, zoneId));
+        }
+
+        private static void addCity(City city) {
+            CITIES.add(city);
+            CITIES_BY_ID.put(city.id, city);
+            if (!city.school) {
+                PLACE_CITIES.add(city);
+            }
         }
 
         private static String normalizePlace(String text) {
@@ -1408,14 +1432,13 @@ public class MainActivity extends Activity {
         }
 
         private static int categoryRank(City city) {
-            return city.id.startsWith("uni-") || city.id.startsWith("hs-") ? 1 : 0;
+            return city.school ? 1 : 0;
         }
 
         static void loadFromAssets(Context context) {
             List<City> loaded = new ArrayList<>();
 
-            try {
-                BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open("cities.tsv")));
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open("cities.tsv")))) {
                 String line;
                 Set<String> seen = new HashSet<>();
                 while ((line = reader.readLine()) != null) {
@@ -1429,13 +1452,16 @@ public class MainActivity extends Activity {
                             parts[3],
                             Double.parseDouble(parts[4]),
                             Double.parseDouble(parts[5]),
-                            parts[6]
+                        parts[6]
                     ));
                 }
-                reader.close();
                 Collections.sort(loaded, PICKER_ORDER);
                 CITIES.clear();
-                CITIES.addAll(loaded);
+                CITIES_BY_ID.clear();
+                PLACE_CITIES.clear();
+                for (City city : loaded) {
+                    addCity(city);
+                }
             } catch (Exception ignored) {
             }
         }
