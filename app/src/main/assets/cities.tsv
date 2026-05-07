@@ -1,0 +1,869 @@
+us-monterey	Monterey	Monterey	美国	36.6002	-121.8947	America/Los_Angeles
+us-san-francisco	旧金山	San Francisco	美国	37.7749	-122.4194	America/Los_Angeles
+us-los-angeles	洛杉矶	Los Angeles	美国	34.0522	-118.2437	America/Los_Angeles
+us-new-york	纽约	New York	美国	40.7128	-74.0060	America/New_York
+us-chicago	芝加哥	Chicago	美国	41.8781	-87.6298	America/Chicago
+us-seattle	西雅图	Seattle	美国	47.6062	-122.3321	America/Los_Angeles
+us-honolulu	檀香山	Honolulu	美国	21.3099	-157.8581	Pacific/Honolulu
+us-boston	波士顿	Boston	美国	42.3601	-71.0589	America/New_York
+us-washington	华盛顿	Washington DC	美国	38.9072	-77.0369	America/New_York
+us-miami	迈阿密	Miami	美国	25.7617	-80.1918	America/New_York
+us-atlanta	亚特兰大	Atlanta	美国	33.7490	-84.3880	America/New_York
+us-dallas	达拉斯	Dallas	美国	32.7767	-96.7970	America/Chicago
+us-houston	休斯敦	Houston	美国	29.7604	-95.3698	America/Chicago
+us-denver	丹佛	Denver	美国	39.7392	-104.9903	America/Denver
+us-phoenix	菲尼克斯	Phoenix	美国	33.4484	-112.0740	America/Phoenix
+us-las-vegas	拉斯维加斯	Las Vegas	美国	36.1699	-115.1398	America/Los_Angeles
+us-portland	波特兰	Portland	美国	45.5152	-122.6784	America/Los_Angeles
+us-san-diego	圣迭戈	San Diego	美国	32.7157	-117.1611	America/Los_Angeles
+ca-vancouver	温哥华	Vancouver	加拿大	49.2827	-123.1207	America/Vancouver
+ca-toronto	多伦多	Toronto	加拿大	43.6532	-79.3832	America/Toronto
+ca-montreal	蒙特利尔	Montreal	加拿大	45.5017	-73.5673	America/Toronto
+ca-calgary	卡尔加里	Calgary	加拿大	51.0447	-114.0719	America/Edmonton
+mx-mexico-city	墨西哥城	Mexico City	墨西哥	19.4326	-99.1332	America/Mexico_City
+mx-guadalajara	瓜达拉哈拉	Guadalajara	墨西哥	20.6597	-103.3496	America/Mexico_City
+mx-monterrey	蒙特雷	Monterrey	墨西哥	25.6866	-100.3161	America/Monterrey
+mx-puebla	普埃布拉	Puebla	墨西哥	19.0414	-98.2063	America/Mexico_City
+mx-tijuana	蒂华纳	Tijuana	墨西哥	32.5149	-117.0382	America/Tijuana
+mx-leon	莱昂	Leon	墨西哥	21.1219	-101.6820	America/Mexico_City
+mx-juarez	华雷斯城	Ciudad Juarez	墨西哥	31.6904	-106.4245	America/Ciudad_Juarez
+mx-merida	梅里达	Merida	墨西哥	20.9674	-89.5926	America/Merida
+mx-cancun	坎昆	Cancun	墨西哥	21.1619	-86.8515	America/Cancun
+mx-queretaro	克雷塔罗	Queretaro	墨西哥	20.5888	-100.3899	America/Mexico_City
+mx-san-luis-potosi	圣路易斯波托西	San Luis Potosi	墨西哥	22.1565	-100.9855	America/Mexico_City
+mx-hermosillo	埃莫西约	Hermosillo	墨西哥	29.0729	-110.9559	America/Hermosillo
+mx-veracruz	韦拉克鲁斯	Veracruz	墨西哥	19.1738	-96.1342	America/Mexico_City
+co-bogota	波哥大	Bogota	哥伦比亚	4.7110	-74.0721	America/Bogota
+pe-lima	利马	Lima	秘鲁	-12.0464	-77.0428	America/Lima
+cl-santiago	圣地亚哥	Santiago	智利	-33.4489	-70.6693	America/Santiago
+br-sao-paulo	圣保罗	Sao Paulo	巴西	-23.5558	-46.6396	America/Sao_Paulo
+br-rio	里约热内卢	Rio de Janeiro	巴西	-22.9068	-43.1729	America/Sao_Paulo
+ar-buenos-aires	布宜诺斯艾利斯	Buenos Aires	阿根廷	-34.6037	-58.3816	America/Argentina/Buenos_Aires
+gb-london	伦敦	London	英国	51.5072	-0.1276	Europe/London
+gb-manchester	曼彻斯特	Manchester	英国	53.4808	-2.2426	Europe/London
+ie-dublin	都柏林	Dublin	爱尔兰	53.3498	-6.2603	Europe/Dublin
+fr-paris	巴黎	Paris	法国	48.8566	2.3522	Europe/Paris
+fr-marseille	马赛	Marseille	法国	43.2965	5.3698	Europe/Paris
+fr-lyon	里昂	Lyon	法国	45.7640	4.8357	Europe/Paris
+fr-toulouse	图卢兹	Toulouse	法国	43.6047	1.4442	Europe/Paris
+fr-nice	尼斯	Nice	法国	43.7102	7.2620	Europe/Paris
+fr-nantes	南特	Nantes	法国	47.2184	-1.5536	Europe/Paris
+fr-montpellier	蒙彼利埃	Montpellier	法国	43.6119	3.8772	Europe/Paris
+fr-strasbourg	斯特拉斯堡	Strasbourg	法国	48.5734	7.7521	Europe/Paris
+fr-bordeaux	波尔多	Bordeaux	法国	44.8378	-0.5792	Europe/Paris
+fr-lille	里尔	Lille	法国	50.6292	3.0573	Europe/Paris
+fr-rennes	雷恩	Rennes	法国	48.1173	-1.6778	Europe/Paris
+fr-reims	兰斯	Reims	法国	49.2583	4.0317	Europe/Paris
+fr-grenoble	格勒诺布尔	Grenoble	法国	45.1885	5.7245	Europe/Paris
+de-berlin	柏林	Berlin	德国	52.5200	13.4050	Europe/Berlin
+de-munich	慕尼黑	Munich	德国	48.1351	11.5820	Europe/Berlin
+it-rome	罗马	Rome	意大利	41.9028	12.4964	Europe/Rome
+it-milan	米兰	Milan	意大利	45.4642	9.1900	Europe/Rome
+es-madrid	马德里	Madrid	西班牙	40.4168	-3.7038	Europe/Madrid
+es-barcelona	巴塞罗那	Barcelona	西班牙	41.3874	2.1686	Europe/Madrid
+pt-lisbon	里斯本	Lisbon	葡萄牙	38.7223	-9.1393	Europe/Lisbon
+nl-amsterdam	阿姆斯特丹	Amsterdam	荷兰	52.3676	4.9041	Europe/Amsterdam
+be-brussels	布鲁塞尔	Brussels	比利时	50.8503	4.3517	Europe/Brussels
+ch-zurich	苏黎世	Zurich	瑞士	47.3769	8.5417	Europe/Zurich
+at-vienna	维也纳	Vienna	奥地利	48.2082	16.3738	Europe/Vienna
+cz-prague	布拉格	Prague	捷克	50.0755	14.4378	Europe/Prague
+pl-warsaw	华沙	Warsaw	波兰	52.2297	21.0122	Europe/Warsaw
+dk-copenhagen	哥本哈根	Copenhagen	丹麦	55.6761	12.5683	Europe/Copenhagen
+se-stockholm	斯德哥尔摩	Stockholm	瑞典	59.3293	18.0686	Europe/Stockholm
+no-oslo	奥斯陆	Oslo	挪威	59.9139	10.7522	Europe/Oslo
+fi-helsinki	赫尔辛基	Helsinki	芬兰	60.1699	24.9384	Europe/Helsinki
+gr-athens	雅典	Athens	希腊	37.9838	23.7275	Europe/Athens
+tr-istanbul	伊斯坦布尔	Istanbul	土耳其	41.0082	28.9784	Europe/Istanbul
+ru-moscow	莫斯科	Moscow	俄罗斯	55.7558	37.6173	Europe/Moscow
+ae-dubai	迪拜	Dubai	阿联酋	25.2048	55.2708	Asia/Dubai
+qa-doha	多哈	Doha	卡塔尔	25.2854	51.5310	Asia/Qatar
+sa-riyadh	利雅得	Riyadh	沙特阿拉伯	24.7136	46.6753	Asia/Riyadh
+il-tel-aviv	特拉维夫	Tel Aviv	以色列	32.0853	34.7818	Asia/Jerusalem
+eg-cairo	开罗	Cairo	埃及	30.0444	31.2357	Africa/Cairo
+ma-casablanca	卡萨布兰卡	Casablanca	摩洛哥	33.5731	-7.5898	Africa/Casablanca
+ke-nairobi	内罗毕	Nairobi	肯尼亚	-1.2921	36.8219	Africa/Nairobi
+ng-lagos	拉各斯	Lagos	尼日利亚	6.5244	3.3792	Africa/Lagos
+za-cape-town	开普敦	Cape Town	南非	-33.9249	18.4241	Africa/Johannesburg
+za-johannesburg	约翰内斯堡	Johannesburg	南非	-26.2041	28.0473	Africa/Johannesburg
+cn-beijing	北京	Beijing	中国	39.9042	116.4074	Asia/Shanghai
+cn-tianjin	天津	Tianjin	中国	39.3434	117.3616	Asia/Shanghai
+cn-shanghai	上海	Shanghai	中国	31.2304	121.4737	Asia/Shanghai
+cn-shenzhen	深圳	Shenzhen	中国	22.5431	114.0579	Asia/Shanghai
+cn-guangzhou	广州	Guangzhou	中国	23.1291	113.2644	Asia/Shanghai
+cn-dongguan	东莞	Dongguan	中国	23.0207	113.7518	Asia/Shanghai
+cn-foshan	佛山	Foshan	中国	23.0215	113.1214	Asia/Shanghai
+cn-zhuhai	珠海	Zhuhai	中国	22.2711	113.5767	Asia/Shanghai
+cn-zhongshan	中山	Zhongshan	中国	22.5176	113.3928	Asia/Shanghai
+cn-hangzhou	杭州	Hangzhou	中国	30.2741	120.1551	Asia/Shanghai
+cn-suzhou	苏州	Suzhou	中国	31.2989	120.5853	Asia/Shanghai
+cn-wuxi	无锡	Wuxi	中国	31.4912	120.3119	Asia/Shanghai
+cn-ningbo	宁波	Ningbo	中国	29.8683	121.5440	Asia/Shanghai
+cn-chengdu	成都	Chengdu	中国	30.5728	104.0668	Asia/Shanghai
+cn-chongqing	重庆	Chongqing	中国	29.5630	106.5516	Asia/Shanghai
+cn-wuhan	武汉	Wuhan	中国	30.5928	114.3055	Asia/Shanghai
+cn-nanjing	南京	Nanjing	中国	32.0603	118.7969	Asia/Shanghai
+cn-hefei	合肥	Hefei	中国	31.8206	117.2272	Asia/Shanghai
+cn-fuzhou	福州	Fuzhou	中国	26.0745	119.2965	Asia/Shanghai
+cn-xiamen	厦门	Xiamen	中国	24.4798	118.0894	Asia/Shanghai
+cn-jinan	济南	Jinan	中国	36.6512	117.1201	Asia/Shanghai
+cn-qingdao	青岛	Qingdao	中国	36.0671	120.3826	Asia/Shanghai
+cn-zhengzhou	郑州	Zhengzhou	中国	34.7466	113.6254	Asia/Shanghai
+cn-changsha	长沙	Changsha	中国	28.2282	112.9388	Asia/Shanghai
+cn-nanchang	南昌	Nanchang	中国	28.6820	115.8582	Asia/Shanghai
+cn-xian	西安	Xi'an	中国	34.3416	108.9398	Asia/Shanghai
+cn-kunming	昆明	Kunming	中国	25.0389	102.7183	Asia/Shanghai
+cn-guiyang	贵阳	Guiyang	中国	26.6470	106.6302	Asia/Shanghai
+cn-nanning	南宁	Nanning	中国	22.8170	108.3669	Asia/Shanghai
+cn-haikou	海口	Haikou	中国	20.0440	110.1999	Asia/Shanghai
+cn-sanya	三亚	Sanya	中国	18.2528	109.5119	Asia/Shanghai
+cn-taiyuan	太原	Taiyuan	中国	37.8706	112.5489	Asia/Shanghai
+cn-shijiazhuang	石家庄	Shijiazhuang	中国	38.0428	114.5149	Asia/Shanghai
+cn-shenyang	沈阳	Shenyang	中国	41.8057	123.4315	Asia/Shanghai
+cn-dalian	大连	Dalian	中国	38.9140	121.6147	Asia/Shanghai
+cn-changchun	长春	Changchun	中国	43.8171	125.3235	Asia/Shanghai
+cn-harbin	哈尔滨	Harbin	中国	45.8038	126.5349	Asia/Shanghai
+cn-hohhot	呼和浩特	Hohhot	中国	40.8426	111.7492	Asia/Shanghai
+cn-lanzhou	兰州	Lanzhou	中国	36.0611	103.8343	Asia/Shanghai
+cn-xining	西宁	Xining	中国	36.6171	101.7782	Asia/Shanghai
+cn-yinchuan	银川	Yinchuan	中国	38.4872	106.2309	Asia/Shanghai
+cn-urumqi	乌鲁木齐	Urumqi	中国	43.8256	87.6168	Asia/Shanghai
+cn-lhasa	拉萨	Lhasa	中国	29.6520	91.1721	Asia/Shanghai
+hk-hong-kong	香港	Hong Kong	中国	22.3193	114.1694	Asia/Hong_Kong
+mo-macau	澳门	Macau	中国	22.1987	113.5439	Asia/Macau
+tw-taipei	台北	Taipei	中国	25.0330	121.5654	Asia/Taipei
+jp-tokyo	东京	Tokyo	日本	35.6762	139.6503	Asia/Tokyo
+jp-yokohama	横滨	Yokohama	日本	35.4437	139.6380	Asia/Tokyo
+jp-osaka	大阪	Osaka	日本	34.6937	135.5023	Asia/Tokyo
+jp-nagoya	名古屋	Nagoya	日本	35.1815	136.9066	Asia/Tokyo
+jp-sapporo	札幌	Sapporo	日本	43.0618	141.3545	Asia/Tokyo
+jp-fukuoka	福冈	Fukuoka	日本	33.5902	130.4017	Asia/Tokyo
+jp-kobe	神户	Kobe	日本	34.6901	135.1955	Asia/Tokyo
+jp-kawasaki	川崎	Kawasaki	日本	35.5308	139.7036	Asia/Tokyo
+jp-saitama	埼玉	Saitama	日本	35.8617	139.6455	Asia/Tokyo
+jp-hiroshima	广岛	Hiroshima	日本	34.3853	132.4553	Asia/Tokyo
+jp-sendai	仙台	Sendai	日本	38.2682	140.8694	Asia/Tokyo
+jp-chiba	千叶	Chiba	日本	35.6074	140.1065	Asia/Tokyo
+jp-kitakyushu	北九州	Kitakyushu	日本	33.8834	130.8751	Asia/Tokyo
+jp-kyoto	京都	Kyoto	日本	35.0116	135.7681	Asia/Tokyo
+jp-naha	那霸	Naha	日本	26.2124	127.6792	Asia/Tokyo
+kr-seoul	首尔	Seoul	韩国	37.5665	126.9780	Asia/Seoul
+kr-busan	釜山	Busan	韩国	35.1796	129.0756	Asia/Seoul
+kr-incheon	仁川	Incheon	韩国	37.4563	126.7052	Asia/Seoul
+kr-daegu	大邱	Daegu	韩国	35.8714	128.6014	Asia/Seoul
+kr-daejeon	大田	Daejeon	韩国	36.3504	127.3845	Asia/Seoul
+kr-gwangju	光州	Gwangju	韩国	35.1595	126.8526	Asia/Seoul
+kr-ulsan	蔚山	Ulsan	韩国	35.5384	129.3114	Asia/Seoul
+kr-suwon	水原	Suwon	韩国	37.2636	127.0286	Asia/Seoul
+kr-sejong	世宗	Sejong	韩国	36.4800	127.2890	Asia/Seoul
+kr-seongnam	城南	Seongnam	韩国	37.4449	127.1389	Asia/Seoul
+kr-goyang	高阳	Goyang	韩国	37.6584	126.8320	Asia/Seoul
+kr-yongin	龙仁	Yongin	韩国	37.2411	127.1776	Asia/Seoul
+kr-jeonju	全州	Jeonju	韩国	35.8242	127.1480	Asia/Seoul
+kr-jeju	济州	Jeju	韩国	33.4996	126.5312	Asia/Seoul
+sg-singapore	新加坡	Singapore	新加坡	1.3521	103.8198	Asia/Singapore
+my-kuala-lumpur	吉隆坡	Kuala Lumpur	马来西亚	3.1390	101.6869	Asia/Kuala_Lumpur
+th-bangkok	曼谷	Bangkok	泰国	13.7563	100.5018	Asia/Bangkok
+vn-ho-chi-minh	胡志明市	Ho Chi Minh City	越南	10.8231	106.6297	Asia/Ho_Chi_Minh
+ph-manila	马尼拉	Manila	菲律宾	14.5995	120.9842	Asia/Manila
+id-jakarta	雅加达	Jakarta	印度尼西亚	-6.2088	106.8456	Asia/Jakarta
+in-mumbai	孟买	Mumbai	印度	19.0760	72.8777	Asia/Kolkata
+in-new-delhi	新德里	New Delhi	印度	28.6139	77.2090	Asia/Kolkata
+in-bengaluru	班加罗尔	Bengaluru	印度	12.9716	77.5946	Asia/Kolkata
+pk-karachi	卡拉奇	Karachi	巴基斯坦	24.8607	67.0011	Asia/Karachi
+bd-dhaka	达卡	Dhaka	孟加拉国	23.8103	90.4125	Asia/Dhaka
+au-sydney	悉尼	Sydney	澳大利亚	-33.8688	151.2093	Australia/Sydney
+au-melbourne	墨尔本	Melbourne	澳大利亚	-37.8136	144.9631	Australia/Melbourne
+au-brisbane	布里斯班	Brisbane	澳大利亚	-27.4698	153.0251	Australia/Brisbane
+au-perth	珀斯	Perth	澳大利亚	-31.9523	115.8613	Australia/Perth
+nz-auckland	奥克兰	Auckland	新西兰	-36.8509	174.7645	Pacific/Auckland
+uni-harvard	哈佛大学	Harvard University	大学 · Cambridge	42.3770	-71.1167	America/New_York
+uni-mit	麻省理工	MIT Massachusetts Institute of Technology	大学 · Cambridge	42.3601	-71.0942	America/New_York
+uni-stanford	斯坦福大学	Stanford University	大学 · Stanford	37.4275	-122.1697	America/Los_Angeles
+uni-berkeley	加州大学伯克利	UC Berkeley University of California Berkeley	大学 · Berkeley	37.8719	-122.2585	America/Los_Angeles
+uni-ucla	加州大学洛杉矶	UCLA University of California Los Angeles	大学 · Los Angeles	34.0689	-118.4452	America/Los_Angeles
+uni-usc	南加州大学	USC University of Southern California	大学 · Los Angeles	34.0224	-118.2851	America/Los_Angeles
+uni-caltech	加州理工	Caltech California Institute of Technology	大学 · Pasadena	34.1377	-118.1253	America/Los_Angeles
+uni-princeton	普林斯顿大学	Princeton University	大学 · Princeton	40.3431	-74.6551	America/New_York
+uni-yale	耶鲁大学	Yale University	大学 · New Haven	41.3163	-72.9223	America/New_York
+uni-columbia	哥伦比亚大学	Columbia University	大学 · New York	40.8075	-73.9626	America/New_York
+uni-nyu	纽约大学	NYU New York University	大学 · New York	40.7295	-73.9965	America/New_York
+uni-upenn	宾夕法尼亚大学	UPenn University of Pennsylvania	大学 · Philadelphia	39.9522	-75.1932	America/New_York
+uni-cornell	康奈尔大学	Cornell University	大学 · Ithaca	42.4534	-76.4735	America/New_York
+uni-brown	布朗大学	Brown University	大学 · Providence	41.8268	-71.4025	America/New_York
+uni-dartmouth	达特茅斯学院	Dartmouth College	大学 · Hanover	43.7044	-72.2887	America/New_York
+uni-duke	杜克大学	Duke University	大学 · Durham	36.0014	-78.9382	America/New_York
+uni-uchicago	芝加哥大学	University of Chicago UChicago	大学 · Chicago	41.7897	-87.5997	America/Chicago
+uni-northwestern	西北大学	Northwestern University	大学 · Evanston	42.0565	-87.6753	America/Chicago
+uni-umich	密歇根大学	University of Michigan Ann Arbor UMich	大学 · Ann Arbor	42.2780	-83.7382	America/Detroit
+uni-uiuc	伊利诺伊大学香槟	UIUC University of Illinois Urbana Champaign	大学 · Champaign	40.1020	-88.2272	America/Chicago
+uni-cmu	卡内基梅隆	Carnegie Mellon University CMU	大学 · Pittsburgh	40.4432	-79.9428	America/New_York
+uni-uw	华盛顿大学	University of Washington UW Seattle	大学 · Seattle	47.6553	-122.3035	America/Los_Angeles
+uni-utexas	德州大学奥斯汀	University of Texas at Austin UT Austin	大学 · Austin	30.2849	-97.7341	America/Chicago
+uni-gatech	佐治亚理工	Georgia Tech Georgia Institute of Technology	大学 · Atlanta	33.7756	-84.3963	America/New_York
+uni-oxford	牛津大学	University of Oxford Oxford	大学 · Oxford	51.7548	-1.2544	Europe/London
+uni-cambridge	剑桥大学	University of Cambridge Cambridge	大学 · Cambridge UK	52.2043	0.1149	Europe/London
+uni-imperial	帝国理工	Imperial College London	大学 · London	51.4988	-0.1749	Europe/London
+uni-ucl	伦敦大学学院	UCL University College London	大学 · London	51.5246	-0.1340	Europe/London
+uni-lse	伦敦政经	LSE London School of Economics	大学 · London	51.5144	-0.1165	Europe/London
+uni-edinburgh	爱丁堡大学	University of Edinburgh Edinburgh	大学 · Edinburgh	55.9445	-3.1892	Europe/London
+uni-eth	苏黎世联邦理工	ETH Zurich	大学 · Zurich	47.3763	8.5481	Europe/Zurich
+uni-sorbonne	索邦大学	Sorbonne University	大学 · Paris	48.8487	2.3431	Europe/Paris
+uni-tsinghua	清华大学	Tsinghua University	大学 · 北京	40.0008	116.3269	Asia/Shanghai
+uni-peking	北京大学	Peking University PKU	大学 · 北京	39.9928	116.3055	Asia/Shanghai
+uni-fudan	复旦大学	Fudan University	大学 · 上海	31.2989	121.5002	Asia/Shanghai
+uni-shanghai-jiao-tong	上海交通大学	Shanghai Jiao Tong University SJTU	大学 · 上海	31.0252	121.4338	Asia/Shanghai
+uni-hku	香港大学	University of Hong Kong HKU	大学 · 香港	22.2830	114.1370	Asia/Hong_Kong
+uni-nus	新加坡国立大学	National University of Singapore NUS	大学 · Singapore	1.2966	103.7764	Asia/Singapore
+uni-ntu	南洋理工大学	Nanyang Technological University NTU Singapore	大学 · Singapore	1.3483	103.6831	Asia/Singapore
+uni-tokyo	东京大学	University of Tokyo Todai	大学 · Tokyo	35.7133	139.7621	Asia/Tokyo
+uni-kyoto	京都大学	Kyoto University	大学 · Kyoto	35.0262	135.7808	Asia/Tokyo
+uni-snu	首尔大学	Seoul National University SNU	大学 · Seoul	37.4599	126.9519	Asia/Seoul
+uni-melbourne	墨尔本大学	University of Melbourne	大学 · Melbourne	-37.7964	144.9612	Australia/Melbourne
+uni-sydney	悉尼大学	University of Sydney	大学 · Sydney	-33.8886	151.1873	Australia/Sydney
+hs-singapore-international-high	新加坡国际高中	Singapore International High School	新加坡高中 · Singapore	1.3521	103.8198	Asia/Singapore
+hs-phillips-exeter	菲利普斯埃克塞特	Phillips Exeter Academy Exeter	美国高中 · Exeter	42.9815	-70.9478	America/New_York
+hs-phillips-andover	菲利普斯安多佛	Phillips Academy Andover	美国高中 · Andover	42.6470	-71.1329	America/New_York
+hs-choate	乔特罗斯玛丽霍尔	Choate Rosemary Hall	美国高中 · Wallingford	41.4570	-72.8185	America/New_York
+hs-st-pauls	圣保罗中学	St. Paul's School Concord	美国高中 · Concord	43.1903	-71.5730	America/New_York
+hs-groton	格罗顿学校	Groton School	美国高中 · Groton	42.6112	-71.5745	America/New_York
+hs-deerfield	迪尔菲尔德学院	Deerfield Academy	美国高中 · Deerfield	42.5458	-72.6048	America/New_York
+hs-lawrenceville	劳伦斯威尔学校	The Lawrenceville School	美国高中 · Lawrenceville	40.2973	-74.7293	America/New_York
+hs-hotchkiss	霍奇基斯学校	The Hotchkiss School Hotchkiss School	美国高中 · Lakeville	41.9648	-73.4372	America/New_York
+hs-milton	米尔顿高中	Milton Academy	美国高中 · Milton	42.2554	-71.0758	America/New_York
+hs-loomis-chaffee	卢米斯查菲学校	Loomis Chaffee School	美国高中 · Windsor	41.8526	-72.6437	America/New_York
+hs-cate	凯特中学	Cate School	美国高中 · Carpinteria	34.4214	-119.5323	America/Los_Angeles
+hs-thacher	撒切尔学校	The Thacher School Thatcher School	美国高中 · Ojai	34.4480	-119.1900	America/Los_Angeles
+hs-concord-academy	康科德学院	Concord Academy	美国高中 · Concord	42.4584	-71.3489	America/New_York
+hs-middlesex	米德尔塞克斯学校	Middlesex School	美国高中 · Concord	42.4682	-71.3965	America/New_York
+hs-st-marks	圣马克学校	St. Mark's School Southborough	美国高中 · Southborough	42.3059	-71.5267	America/New_York
+hs-brooks	布鲁克斯学校	Brooks School	美国高中 · North Andover	42.7004	-71.0864	America/New_York
+hs-taft	塔夫特学校	The Taft School	美国高中 · Watertown	41.6062	-73.1190	America/New_York
+hs-kent	肯特学校	Kent School	美国高中 · Kent	41.7248	-73.4774	America/New_York
+hs-northfield-mount-hermon	北野山赫蒙学校	Northfield Mount Hermon School NMH	美国高中 · Gill	42.6425	-72.4895	America/New_York
+hs-webb-schools	韦伯学校	The Webb Schools Webb School California	美国高中 · Claremont	34.1180	-117.7100	America/Los_Angeles
+hs-blair	布莱尔学院	Blair Academy	美国高中 · Blairstown	40.9812	-74.9535	America/New_York
+hs-hill	希尔中学	The Hill School	美国高中 · Pottstown	40.2440	-75.6522	America/New_York
+hs-mercersburg	默瑟斯堡学院	Mercersburg Academy	美国高中 · Mercersburg	39.8309	-77.9047	America/New_York
+hs-episcopal	主教高中	Episcopal High School Alexandria Virginia	美国高中 · Alexandria	38.8264	-77.0906	America/New_York
+hs-woodberry-forest	伍德伯里森林学校	Woodberry Forest School	美国高中 · Woodberry Forest	38.2878	-78.1167	America/New_York
+hs-st-andrews-de	圣安德鲁学校	St. Andrew's School Delaware DE	美国高中 · Middletown	39.4548	-75.6742	America/New_York
+hs-st-georges-ri	圣乔治学校	St. George's School Rhode Island RI	美国高中 · Middletown	41.5051	-71.2843	America/New_York
+hs-masters	马斯特斯学校	The Masters School	美国高中 · Dobbs Ferry	41.0145	-73.8732	America/New_York
+hs-emma-willard	艾玛威拉德学校	Emma Willard School	美国高中 · Troy	42.7154	-73.6751	America/New_York
+hs-miss-porters	波特小姐学校	Miss Porter's School	美国高中 · Farmington	41.7198	-72.8320	America/New_York
+hs-westover	韦斯托弗学校	Westover School	美国高中 · Middlebury	41.5270	-73.1279	America/New_York
+hs-dana-hall	达娜霍尔学校	Dana Hall School	美国高中 · Wellesley	42.2959	-71.3056	America/New_York
+hs-madeira	马德拉学校	The Madeira School	美国高中 · McLean	38.9637	-77.1854	America/New_York
+hs-hun-princeton	普林斯顿亨学校	The Hun School of Princeton	美国高中 · Princeton	40.3487	-74.6840	America/New_York
+hs-peddie	佩迪学校	Peddie School	美国高中 · Hightstown	40.2683	-74.5249	America/New_York
+hs-stevenson	史蒂文森学校	Stevenson School Pebble Beach	美国高中 · Pebble Beach	36.5838	-121.9494	America/Los_Angeles
+hs-san-domenico	圣多梅尼科学校	San Domenico School	美国高中 · San Anselmo	37.9827	-122.5810	America/Los_Angeles
+hs-santa-catalina	圣卡塔利娜学校	Santa Catalina School Monterey	美国高中 · Monterey	36.5914	-121.8688	America/Los_Angeles
+hs-besant-hill	贝森特山学校	Besant Hill School	美国高中 · Ojai	34.4515	-119.2010	America/Los_Angeles
+hs-ojai-valley	奥海谷学校	Ojai Valley School OVS	美国高中 · Ojai	34.4480	-119.2468	America/Los_Angeles
+hs-athenian	雅典娜学校	The Athenian School	美国高中 · Danville	37.8016	-121.9838	America/Los_Angeles
+hs-fountain-valley	科罗拉多喷泉谷学校	Fountain Valley School of Colorado	美国高中 · Colorado Springs	38.7372	-104.6970	America/Denver
+hs-colorado-rocky-mountain	科罗拉多洛基山学校	Colorado Rocky Mountain School CRMS	美国高中 · Carbondale	39.4022	-107.2112	America/Denver
+hs-wasatch	瓦萨奇学院	Wasatch Academy	美国高中 · Mount Pleasant	39.5469	-111.4555	America/Denver
+hs-tabor	泰伯学院	Tabor Academy	美国高中 · Marion	41.7012	-70.7628	America/New_York
+hs-portsmouth-abbey	朴茨茅斯修道院学校	Portsmouth Abbey School	美国高中 · Portsmouth	41.6023	-71.2523	America/New_York
+hs-suffield	萨菲尔德学院	Suffield Academy	美国高中 · Suffield	41.9859	-72.6510	America/New_York
+hs-cheshire	柴郡学院	Cheshire Academy	美国高中 · Cheshire	41.4976	-72.9012	America/New_York
+hs-avon-old-farms	埃文老农场学校	Avon Old Farms School	美国高中 · Avon	41.7837	-72.8368	America/New_York
+hs-salisbury	索尔兹伯里学校	Salisbury School	美国高中 · Salisbury	41.9888	-73.4212	America/New_York
+hs-pomfret	庞弗雷特学校	Pomfret School	美国高中 · Pomfret	41.8976	-71.9626	America/New_York
+hs-berkshire	伯克希尔学校	Berkshire School	美国高中 · Sheffield	42.1132	-73.3862	America/New_York
+hs-cushing	库欣学院	Cushing Academy	美国高中 · Ashburnham	42.6362	-71.9087	America/New_York
+hs-kimball-union	金博尔联合学院	Kimball Union Academy KUA	美国高中 · Meriden	43.5320	-72.2510	America/New_York
+hs-tilton	蒂尔顿学校	Tilton School	美国高中 · Tilton	43.4461	-71.5884	America/New_York
+hs-holderness	霍尔德尼斯学校	Holderness School	美国高中 · Holderness	43.7334	-71.5880	America/New_York
+hs-dublin	都柏林学校	Dublin School	美国高中 · Dublin	42.9076	-72.0620	America/New_York
+hs-proctor	普罗克特学院	Proctor Academy	美国高中 · Andover NH	43.4371	-71.8237	America/New_York
+hs-fryeburg	弗莱堡学院	Fryeburg Academy	美国高中 · Fryeburg	44.0165	-70.9806	America/New_York
+hs-hebron	希伯伦学院	Hebron Academy	美国高中 · Hebron	44.1980	-70.4060	America/New_York
+hs-kents-hill	肯茨山学校	Kents Hill School	美国高中 · Kents Hill	44.4351	-70.0733	America/New_York
+hs-gould	古尔德学院	Gould Academy	美国高中 · Bethel	44.4056	-70.7912	America/New_York
+hs-bridgton	布里奇顿学院	Bridgton Academy	美国高中 · North Bridgton	44.0912	-70.7087	America/New_York
+hs-governors	州长学院	The Governor's Academy Governors Academy	美国高中 · Byfield	42.7585	-70.9511	America/New_York
+hs-lawrence-academy	劳伦斯学院	Lawrence Academy Groton	美国高中 · Groton	42.6126	-71.5754	America/New_York
+hs-worcester	伍斯特学院	Worcester Academy	美国高中 · Worcester	42.2529	-71.7934	America/New_York
+hs-wilbraham-monson	威尔布拉汉姆蒙森学院	Wilbraham and Monson Academy WMA	美国高中 · Wilbraham	42.1235	-72.4315	America/New_York
+hs-northwood	诺斯伍德学校	Northwood School Lake Placid	美国高中 · Lake Placid	44.2795	-73.9867	America/New_York
+hs-perkiomen	伯基奥门学校	Perkiomen School	美国高中 · Pennsburg	40.3904	-75.4902	America/New_York
+hs-george	乔治学校	George School	美国高中 · Newtown	40.2253	-74.9316	America/New_York
+hs-solebury	索尔伯里学校	Solebury School	美国高中 · New Hope	40.3554	-74.9966	America/New_York
+hs-phelps	菲尔普斯学校	The Phelps School	美国高中 · Malvern	40.0364	-75.5130	America/New_York
+hs-valley-forge-military	福吉谷军事学院	Valley Forge Military Academy	美国高中 · Wayne	40.0547	-75.3921	America/New_York
+hs-army-navy	陆海军学院	Army and Navy Academy	美国高中 · Carlsbad	33.1581	-117.3506	America/Los_Angeles
+hs-randolph-macon	兰道夫梅肯学院	Randolph-Macon Academy RMA	美国高中 · Front Royal	38.9148	-78.1944	America/New_York
+hs-fishburne	菲什伯恩军事学校	Fishburne Military School	美国高中 · Waynesboro	38.0685	-78.8864	America/New_York
+hs-new-york-military	纽约军事学院	New York Military Academy NYMA	美国高中 · Cornwall	41.4337	-74.0352	America/New_York
+hs-storm-king	风暴国王学校	The Storm King School	美国高中 · Cornwall-on-Hudson	41.4445	-74.0171	America/New_York
+hs-ef-new-york	EF纽约学院	EF Academy New York	美国高中 · Thornwood	41.1232	-73.7790	America/New_York
+hs-ef-pasadena	EF帕萨迪纳学院	EF Academy Pasadena	美国高中 · Pasadena	34.1478	-118.1445	America/Los_Angeles
+hs-knox	诺克斯学校	The Knox School	美国高中 · St. James	40.8765	-73.1568	America/New_York
+hs-hoosac	胡萨克学校	Hoosac School	美国高中 · Hoosick	42.9012	-73.3460	America/New_York
+hs-darrow	达罗学校	Darrow School	美国高中 · New Lebanon	42.4717	-73.3787	America/New_York
+hs-buxton	巴克斯顿学校	Buxton School Williamstown	美国高中 · Williamstown	42.7120	-73.2037	America/New_York
+hs-verde-valley	维德谷学校	Verde Valley School	美国高中 · Sedona	34.8294	-111.7699	America/Phoenix
+hs-monte-vista-christian	蒙特维斯塔基督学校	Monte Vista Christian School	美国高中 · Watsonville	36.9441	-121.7660	America/Los_Angeles
+hs-pacific-ridge	太平洋岭学校	Pacific Ridge School	美国高中 · Carlsbad	33.1261	-117.2870	America/Los_Angeles
+hs-villanova-prep	维拉诺瓦预备学校	Villanova Preparatory School	美国高中 · Ojai	34.4308	-119.2559	America/Los_Angeles
+hs-dunn	邓恩学校	Dunn School	美国高中 · Los Olivos	34.6651	-120.1153	America/Los_Angeles
+hs-midland	米德兰学校	Midland School	美国高中 · Los Olivos	34.7054	-120.0524	America/Los_Angeles
+hs-woodside-priory	伍德赛德修道院学校	Woodside Priory School	美国高中 · Portola Valley	37.3745	-122.2166	America/Los_Angeles
+hs-archbishop-riordan	里尔登大主教高中	Archbishop Riordan High School	美国高中 · San Francisco	37.7287	-122.4528	America/Los_Angeles
+hs-bellarmine	贝拉明预备学院	Bellarmine College Preparatory	美国高中 · San Jose	37.3411	-121.9214	America/Los_Angeles
+hs-archbishop-mitty	米蒂大主教高中	Archbishop Mitty High School	美国高中 · San Jose	37.3150	-121.9950	America/Los_Angeles
+hs-noble-greenough	诺布尔格里诺	Noble and Greenough School Nobles	美国高中 · Dedham	42.2462	-71.1857	America/New_York
+hs-roxbury-latin	罗克斯伯里拉丁	Roxbury Latin School	美国高中 · West Roxbury	42.2787	-71.1667	America/New_York
+hs-boston-latin	波士顿拉丁学校	Boston Latin School	美国高中 · Boston	42.3401	-71.0908	America/New_York
+hs-trinity	三一学校	Trinity School New York	美国高中 · New York	40.7898	-73.9756	America/New_York
+hs-horace-mann	霍瑞斯曼学校	Horace Mann School	美国高中 · Bronx	40.8929	-73.8997	America/New_York
+hs-dalton	道尔顿学校	The Dalton School	美国高中 · New York	40.7831	-73.9552	America/New_York
+hs-brearley	布雷尔利学校	The Brearley School	美国高中 · New York	40.7753	-73.9442	America/New_York
+hs-collegiate	纽约学院学校	Collegiate School New York	美国高中 · New York	40.7865	-73.9772	America/New_York
+hs-stuyvesant	史岱文森高中	Stuyvesant High School	美国高中 · New York	40.7178	-74.0139	America/New_York
+hs-bronx-science	布朗克斯科学高中	Bronx High School of Science	美国高中 · Bronx	40.8777	-73.8918	America/New_York
+hs-thomas-jefferson	托马斯杰斐逊科技高中	Thomas Jefferson High School for Science and Technology TJHSST	美国高中 · Alexandria	38.8189	-77.1686	America/New_York
+hs-harker	哈克学校	The Harker School	美国高中 · San Jose	37.2694	-121.9857	America/Los_Angeles
+hs-harvard-westlake	哈佛西湖学校	Harvard-Westlake School	美国高中 · Los Angeles	34.1289	-118.4378	America/Los_Angeles
+hs-flintridge	弗林特里奇预备	Flintridge Preparatory School	美国高中 · La Canada	34.2040	-118.2000	America/Los_Angeles
+hs-crystal-springs	水晶泉高地	Crystal Springs Uplands School	美国高中 · Hillsborough	37.5591	-122.3567	America/Los_Angeles
+hs-college-prep	大学预备学校	The College Preparatory School	美国高中 · Oakland	37.8471	-122.2467	America/Los_Angeles
+hs-lakeside	湖滨学校	Lakeside School Seattle	美国高中 · Seattle	47.7314	-122.3294	America/Los_Angeles
+hs-webb-tn	韦伯中学	The Webb School	美国高中 · Bell Buckle	35.5917	-86.3544	America/Chicago
+hs-annie-wright	安妮怀特学校	Annie Wright Schools	美国高中 · Tacoma	47.2529	-122.4443	America/Los_Angeles
+hs-chatham-hall	查塔姆霍尔学校	Chatham Hall	美国高中 · Chatham	36.8257	-79.3981	America/New_York
+hs-gilmour	吉尔摩学院	Gilmour Academy	美国高中 · Gates Mills	41.5176	-81.4037	America/New_York
+hs-northwest	西北中学	The Northwest School	美国高中 · Seattle	47.6145	-122.3276	America/Los_Angeles
+hs-thornton	桑顿中学	Thornton Academy	美国高中 · Saco	43.5009	-70.4428	America/New_York
+hs-st-annes-belfield	圣安妮贝尔菲尔德学校	St. Anne's-Belfield School	美国高中 · Charlottesville	38.0550	-78.5070	America/New_York
+hs-linden-hall	林顿豪女子中学	Linden Hall School for Girls	美国高中 · Lititz	40.1573	-76.3069	America/New_York
+hs-garrison-forest	格瑞森林中学	Garrison Forest School	美国高中 · Owings Mills	39.4196	-76.7803	America/New_York
+hs-maumee-valley	莫米谷走读中学	Maumee Valley Country Day School	美国高中 · Toledo	41.5931	-83.6700	America/New_York
+hs-john-bapst	约翰百斯特高中	John Bapst School	美国高中 · Bangor	44.8016	-68.7712	America/New_York
+hs-trinity-pawling	圣三一珀林中学	Trinity-Pawling School	美国高中 · Pawling	41.5620	-73.6026	America/New_York
+hs-miss-halls	米斯豪司女子高中	Miss Hall's School	美国高中 · Pittsfield	42.4501	-73.2454	America/New_York
+hs-st-albans	圣奥尔本斯中学	St. Albans School	美国高中 · Washington DC	38.9306	-77.0708	America/New_York
+hs-ross	罗斯中学	Ross School	美国高中 · East Hampton	40.9634	-72.1848	America/New_York
+hs-shattuck-st-marys	嘉德圣玛丽高中	Shattuck-St. Mary's School	美国高中 · Faribault	44.2940	-93.2688	America/Chicago
+hs-montverde	蒙特沃德学院	Montverde Academy	美国高中 · Montverde	28.6003	-81.6731	America/New_York
+hs-saint-johns-prep	圣约翰预备中学	Saint John's Preparatory School	美国高中 · Collegeville	45.5790	-94.3940	America/Chicago
+hs-st-timothys	圣蒂莫西女子中学	St. Timothy's School	美国高中 · Stevenson	39.4118	-76.7120	America/New_York
+hs-buffalo-seminary	布法罗女校	Buffalo Seminary	美国高中 · Buffalo	42.9275	-78.8690	America/New_York
+hs-st-johnsbury	圣约翰博睿学院	St. Johnsbury Academy	美国高中 · St. Johnsbury	44.4192	-72.0198	America/New_York
+hs-miller-albemarle	米勒中学	Miller School of Albemarle	美国高中 · Crozet	38.0476	-78.7033	America/New_York
+hs-rabun-gap	冉本盖普纳库奇中学	Rabun Gap-Nacoochee School	美国高中 · Rabun Gap	34.9509	-83.4374	America/New_York
+hs-newman	纽曼中学	The Newman School	美国高中 · Boston	42.3505	-71.0870	America/New_York
+hs-putney	帕特尼中学	The Putney School	美国高中 · Putney	42.9709	-72.5218	America/New_York
+hs-marianapolis	马里安娜波莉兹高中	Marianapolis Preparatory School	美国高中 · Thompson	41.9587	-71.8626	America/New_York
+hs-church-farm	教会农场学校	Church Farm School	美国高中 · Exton	40.0440	-75.6208	America/New_York
+hs-stoneleigh-burnham	思德博翰女子学校	Stoneleigh-Burnham School	美国高中 · Greenfield	42.5876	-72.6000	America/New_York
+hs-foxcroft	福克斯克罗夫特女子学校	Foxcroft School	美国高中 · Middleburg	38.9687	-77.7350	America/New_York
+hs-vermont-academy	佛蒙特学院	Vermont Academy	美国高中 · Saxtons River	43.1380	-72.5080	America/New_York
+hs-long-island-lutheran	长岛路德高中	Long Island Lutheran Middle & High School	美国高中 · Brookville	40.8135	-73.5670	America/New_York
+hs-brook-hill	布鲁克希尔中学	The Brook Hill School	美国高中 · Bullard	32.1396	-95.3205	America/Chicago
+hs-springfield-commonwealth	春田中学	Springfield Commonwealth Academy	美国高中 · Springfield	42.1015	-72.5898	America/New_York
+hs-winchendon	温彻顿中学	The Winchendon School	美国高中 · Winchendon	42.6862	-72.0430	America/New_York
+hs-linsly	林斯里学校	The Linsly School	美国高中 · Wheeling	40.0639	-80.7200	America/New_York
+hs-la-lumiere	拉路米亚中学	La Lumiere School	美国高中 · La Porte	41.6710	-86.7550	America/Chicago
+hs-st-andrews-ri	圣安德鲁学校罗德岛	St. Andrew's School RI Saint Andrew's School RI	美国高中 · Barrington	41.7406	-71.3184	America/New_York
+hs-salem-academy	塞伦学院	Salem Academy	美国高中 · Winston-Salem	36.0906	-80.2440	America/New_York
+hs-christ-school	耶稣男子学校	Christ School	美国高中 · Arden	35.4676	-82.5160	America/New_York
+hs-delphian	特尔菲学校	Delphian School	美国高中 · Sheridan	45.0996	-123.4190	America/Los_Angeles
+hs-mastery-hawken	霍肯精英学校	Mastery School of Hawken	美国高中 · Gates Mills	41.5176	-81.4037	America/New_York
+hs-new-hampton	新汉普顿中学	New Hampton School	美国高中 · New Hampton	43.6054	-71.6542	America/New_York
+hs-chapel-hill-chauncy-hall	教堂山高中	Chapel Hill-Chauncy Hall School	美国高中 · Waltham	42.3890	-71.2340	America/New_York
+hs-sandy-spring-friends	珊帝泉友高中	Sandy Spring Friends School	美国高中 · Sandy Spring	39.1490	-77.0270	America/New_York
+hs-south-kent	南肯特高中	South Kent School	美国高中 · South Kent	41.6815	-73.4690	America/New_York
+hs-harvey	哈维中学	The Harvey School	美国高中 · Katonah	41.2580	-73.6850	America/New_York
+hs-lake-tahoe-prep	太浩湖预备学校	Lake Tahoe Preparatory School	美国高中 · Olympic Valley	39.1960	-120.2350	America/Los_Angeles
+hs-hawaii-prep	夏威夷预科学院	Hawai'i Preparatory Academy	美国高中 · Kamuela	20.0275	-155.6960	Pacific/Honolulu
+hs-maine-central	缅因中央高中	Maine Central Institute	美国高中 · Pittsfield	44.7826	-69.3834	America/New_York
+hs-mercyhurst-prep	梅西赫斯特预备中学	Mercyhurst Preparatory School	美国高中 · Erie	42.1040	-80.0930	America/New_York
+hs-woodstock-academy	伍德斯托克学院	The Woodstock Academy	美国高中 · Woodstock	41.9484	-71.9730	America/New_York
+hs-flintridge-sacred-heart	福临特里奇圣心学院	Flintridge Sacred Heart Academy	美国高中 · La Canada Flintridge	34.2049	-118.1930	America/Los_Angeles
+hs-woodlands-sacred-heart	伍德兰兹圣心学院	Woodlands Academy of the Sacred Heart	美国高中 · Lake Forest	42.2510	-87.8400	America/Chicago
+hs-christchurch	基督教中学	Christchurch School	美国高中 · Christchurch	37.6043	-76.5205	America/New_York
+hs-tallulah-falls	塔卢拉弗中学	Tallulah Falls School	美国高中 · Tallulah Falls	34.7390	-83.3970	America/New_York
+hs-tmi-episcopal	德克萨斯主教中学	TMI Episcopal	美国高中 · San Antonio	29.6150	-98.6060	America/Chicago
+hs-hyde	海德学校	Hyde School	美国高中 · Bath	43.9120	-69.8210	America/New_York
+hs-international-leadership-texas	得州国际领袖学校	International Leadership of Texas ILTexas	美国高中 · Garland	32.9126	-96.6389	America/Chicago
+hs-ben-lippen	本里鹏学校	Ben Lippen School	美国高中 · Columbia	34.0740	-81.0730	America/New_York
+hs-blue-ridge	布利吉中学	Blue Ridge School	美国高中 · St. George	38.2400	-78.4550	America/New_York
+hs-stuart-hall	斯图亚特霍尔学校	Stuart Hall School	美国高中 · Staunton	38.1496	-79.0717	America/New_York
+hs-lincoln-academy	林肯中学	Lincoln Academy	美国高中 · Newcastle	44.0350	-69.5350	America/New_York
+hs-north-cross	诺科学校	North Cross School	美国高中 · Roanoke	37.2440	-80.0180	America/New_York
+hs-brewster	布鲁斯特学院	Brewster Academy	美国高中 · Wolfeboro	43.5865	-71.2073	America/New_York
+hs-oakwood-friends	欧克中学	Oakwood Friends School	美国高中 · Poughkeepsie	41.6769	-73.8970	America/New_York
+hs-andrews-osborne	美国AOA私立寄宿中学	Andrews Osborne Academy AOA	美国高中 · Willoughby	41.6306	-81.4087	America/New_York
+hs-calverton	卡尔弗顿学校	The Calverton School	美国高中 · Huntingtown	38.6157	-76.6130	America/New_York
+hs-oak-hill	橡树山学院	Oak Hill Academy	美国高中 · Mouth of Wilson	36.5940	-81.3350	America/New_York
+hs-washington-academy	华盛顿学院	Washington Academy	美国高中 · East Machias	44.7390	-67.3890	America/New_York
+hs-kiski	科士奇中学	The Kiski School	美国高中 · Saltsburg	40.4860	-79.4510	America/New_York
+hs-west-nottingham	西诺丁汉学院	West Nottingham Academy	美国高中 · Colora	39.6760	-76.0840	America/New_York
+hs-saint-stanislaus	圣斯坦尼斯洛斯高中	Saint Stanislaus High School	美国高中 · Bay St. Louis	30.3088	-89.3300	America/Chicago
+hs-oldfields	欧菲尔姿女子中学	Oldfields School	美国高中 · Sparks Glencoe	39.5250	-76.6660	America/New_York
+hs-saint-bede	圣彼得学院	Saint Bede Academy	美国高中 · Peru	41.3275	-89.1280	America/Chicago
+hs-st-andrews-sewanee	圣安德鲁塞沃尼学校	St. Andrew's-Sewanee School	美国高中 · Sewanee	35.2059	-85.9210	America/Chicago
+hs-st-croix	圣克罗伊学校	St. Croix Academy	美国高中 · West St. Paul	44.9100	-93.0830	America/Chicago
+hs-marvelwood	麻渥伍德中学	Marvelwood School	美国高中 · Kent	41.7770	-73.4770	America/New_York
+uni-johns-hopkins	约翰霍普金斯大学	Johns Hopkins University	大学 · Baltimore	39.3299	-76.6205	America/New_York
+uni-rice	莱斯大学	Rice University	大学 · Houston	29.7174	-95.4018	America/Chicago
+uni-vanderbilt	范德堡大学	Vanderbilt University	大学 · Nashville	36.1447	-86.8027	America/Chicago
+uni-notre-dame	圣母大学	University of Notre Dame	大学 · Notre Dame	41.7056	-86.2353	America/Indiana/Indianapolis
+uni-georgetown	乔治城大学	Georgetown University	大学 · Washington DC	38.9076	-77.0723	America/New_York
+uni-unc-chapel-hill	北卡教堂山大学	University of North Carolina at Chapel Hill	大学 · Chapel Hill	35.9049	-79.0469	America/New_York
+uni-emory	埃默里大学	Emory University	大学 · Atlanta	33.7971	-84.3222	America/New_York
+uni-virginia	弗吉尼亚大学	University of Virginia	大学 · Charlottesville	38.0336	-78.5080	America/New_York
+uni-washu	圣路易斯华盛顿大学	Washington University in St Louis	大学 · St. Louis	38.6488	-90.3108	America/Chicago
+uni-tufts	塔夫茨大学	Tufts University	大学 · Medford	42.4075	-71.1190	America/New_York
+uni-ucsd	加州大学圣迭戈	University of California San Diego	大学 · San Diego	32.8801	-117.2340	America/Los_Angeles
+uni-boston-college	波士顿学院	Boston College	大学 · Chestnut Hill	42.3355	-71.1685	America/New_York
+uni-florida	佛罗里达大学	University of Florida	大学 · Gainesville	29.6436	-82.3549	America/New_York
+uni-uc-davis	加州大学戴维斯	University of California Davis	大学 · Davis	38.5382	-121.7617	America/Los_Angeles
+uni-uc-irvine	加州大学欧文	University of California Irvine	大学 · Irvine	33.6405	-117.8443	America/Los_Angeles
+uni-uc-santa-barbara	加州大学圣巴巴拉	University of California Santa Barbara	大学 · Santa Barbara	34.4139	-119.8489	America/Los_Angeles
+uni-boston	波士顿大学	Boston University	大学 · Boston	42.3505	-71.1054	America/New_York
+uni-tulane	杜兰大学	Tulane University	大学 · New Orleans	29.9407	-90.1204	America/Chicago
+uni-wisconsin-madison	威斯康星大学麦迪逊	University of Wisconsin Madison	大学 · Madison	43.0766	-89.4125	America/Chicago
+uni-rutgers-new-brunswick	罗格斯大学新布朗斯维克	Rutgers University New Brunswick	大学 · New Brunswick	40.5008	-74.4474	America/New_York
+uni-maryland-college-park	马里兰大学帕克分校	University of Maryland College Park	大学 · College Park	38.9869	-76.9426	America/New_York
+uni-georgia	佐治亚大学	University of Georgia	大学 · Athens	33.9480	-83.3773	America/New_York
+uni-ohio-state	俄亥俄州立大学	Ohio State University	大学 · Columbus	40.0067	-83.0305	America/New_York
+uni-purdue	普渡大学	Purdue University	大学 · West Lafayette	40.4237	-86.9212	America/Indiana/Indianapolis
+uni-wake-forest	维克森林大学	Wake Forest University	大学 · Winston-Salem	36.1355	-80.2792	America/New_York
+uni-lehigh	里海大学	Lehigh University	大学 · Bethlehem	40.6068	-75.3785	America/New_York
+uni-texas-am	德州农工大学	Texas A&M University College Station	大学 · College Station	30.6186	-96.3365	America/Chicago
+uni-rochester	罗切斯特大学	University of Rochester	大学 · Rochester	43.1286	-77.6280	America/New_York
+uni-case-western	凯斯西储大学	Case Western Reserve University	大学 · Cleveland	41.5043	-81.6084	America/New_York
+uni-minnesota-twin-cities	明尼苏达大学双城	University of Minnesota Twin Cities	大学 · Minneapolis	44.9738	-93.2277	America/Chicago
+uni-north-carolina-state	北卡罗来纳州立大学	North Carolina State University	大学 · Raleigh	35.7847	-78.6821	America/New_York
+uni-pittsburgh	匹兹堡大学	University of Pittsburgh	大学 · Pittsburgh	40.4440	-79.9608	America/New_York
+uni-villanova	维拉诺瓦大学	Villanova University	大学 · Villanova	40.0373	-75.3430	America/New_York
+uni-indiana-bloomington	印第安纳大学伯明顿	Indiana University Bloomington	大学 · Bloomington	39.1689	-86.5236	America/Indiana/Indianapolis
+uni-clemson	克莱姆森大学	Clemson University	大学 · Clemson	34.6774	-82.8362	America/New_York
+uni-brandeis	布兰迪斯大学	Brandeis University	大学 · Waltham	42.3654	-71.2587	America/New_York
+uni-george-washington	乔治华盛顿大学	George Washington University	大学 · Washington DC	38.8997	-77.0476	America/New_York
+uni-miami	迈阿密大学	University of Miami	大学 · Coral Gables	25.7216	-80.2793	America/New_York
+uni-syracuse	雪城大学	Syracuse University	大学 · Syracuse	43.0392	-76.1351	America/New_York
+uni-penn-state	宾州州立大学	Pennsylvania State University University Park	大学 · University Park	40.7982	-77.8599	America/New_York
+uni-florida-state	佛罗里达州立大学	Florida State University	大学 · Tallahassee	30.4419	-84.2985	America/New_York
+uni-umass-amherst	麻省大学阿默斯特	University of Massachusetts Amherst	大学 · Amherst	42.3868	-72.5301	America/New_York
+uni-uconn	康涅狄格大学	University of Connecticut	大学 · Storrs	41.8077	-72.2538	America/New_York
+uni-michigan-state	密歇根州立大学	Michigan State University	大学 · East Lansing	42.7018	-84.4822	America/Detroit
+uni-baylor	贝勒大学	Baylor University	大学 · Waco	31.5489	-97.1131	America/Chicago
+uni-gonzaga	冈萨加大学	Gonzaga University	大学 · Spokane	47.6672	-117.4026	America/Los_Angeles
+uni-marquette	马凯特大学	Marquette University	大学 · Milwaukee	43.0389	-87.9288	America/Chicago
+uni-smu	南卫理公会大学	Southern Methodist University	大学 · Dallas	32.8412	-96.7845	America/Chicago
+uni-american	美利坚大学	American University	大学 · Washington DC	38.9370	-77.0901	America/New_York
+uni-denver	丹佛大学	University of Denver	大学 · Denver	39.6781	-104.9618	America/Denver
+uni-stevens	史蒂文斯理工学院	Stevens Institute of Technology	大学 · Hoboken	40.7448	-74.0257	America/New_York
+uni-san-diego	圣地亚哥大学	University of San Diego	大学 · San Diego	32.7715	-117.1887	America/Los_Angeles
+uni-pepperdine	佩珀代因大学	Pepperdine University	大学 · Malibu	34.0419	-118.7097	America/Los_Angeles
+uni-fordham	福特汉姆大学	Fordham University	大学 · New York	40.8620	-73.8857	America/New_York
+uni-wpi	伍斯特理工学院	Worcester Polytechnic Institute	大学 · Worcester	42.2749	-71.8061	America/New_York
+uni-rpi	伦斯勒理工学院	Rensselaer Polytechnic Institute	大学 · Troy	42.7298	-73.6789	America/New_York
+uni-colorado-mines	科罗拉多矿业学院	Colorado School of Mines	大学 · Golden	39.7512	-105.2227	America/Denver
+uni-drexel	德雷塞尔大学	Drexel University	大学 · Philadelphia	39.9566	-75.1899	America/New_York
+uni-njit	新泽西理工学院	New Jersey Institute of Technology	大学 · Newark	40.7422	-74.1785	America/New_York
+uni-iit	伊利诺伊理工学院	Illinois Institute of Technology	大学 · Chicago	41.8349	-87.6270	America/Chicago
+uni-rit	罗切斯特理工学院	Rochester Institute of Technology	大学 · Rochester	43.0845	-77.6744	America/New_York
+uni-clarkson	克拉克森大学	Clarkson University	大学 · Potsdam	44.6635	-74.9990	America/New_York
+uni-buffalo	纽约州立大学布法罗	University at Buffalo SUNY	大学 · Buffalo	43.0008	-78.7890	America/New_York
+uni-binghamton	纽约州立大学宾汉姆顿	Binghamton University SUNY	大学 · Binghamton	42.0899	-75.9712	America/New_York
+uni-stony-brook	纽约州立大学石溪	Stony Brook University SUNY	大学 · Stony Brook	40.9153	-73.1234	America/New_York
+uni-vermont	佛蒙特大学	University of Vermont	大学 · Burlington	44.4779	-73.1999	America/New_York
+uni-new-hampshire	新罕布什尔大学	University of New Hampshire	大学 · Durham	43.1342	-70.9264	America/New_York
+uni-maine	缅因大学	University of Maine	大学 · Orono	44.9025	-68.6638	America/New_York
+uni-rhode-island	罗德岛大学	University of Rhode Island	大学 · Kingston	41.4860	-71.5309	America/New_York
+uni-delaware	特拉华大学	University of Delaware	大学 · Newark	39.6796	-75.7527	America/New_York
+uni-temple	天普大学	Temple University	大学 · Philadelphia	39.9812	-75.1556	America/New_York
+uni-south-carolina	南卡罗来纳大学	University of South Carolina	大学 · Columbia	33.9961	-81.0274	America/New_York
+uni-auburn	奥本大学	Auburn University	大学 · Auburn	32.6036	-85.4860	America/Chicago
+uni-tennessee-knoxville	田纳西大学诺克斯维尔	University of Tennessee Knoxville	大学 · Knoxville	35.9544	-83.9295	America/New_York
+uni-alabama	阿拉巴马大学	University of Alabama	大学 · Tuscaloosa	33.2140	-87.5391	America/Chicago
+uni-kentucky	肯塔基大学	University of Kentucky	大学 · Lexington	38.0329	-84.5054	America/New_York
+uni-mississippi	密西西比大学	University of Mississippi	大学 · Oxford	34.3650	-89.5384	America/Chicago
+uni-arkansas	阿肯色大学	University of Arkansas	大学 · Fayetteville	36.0687	-94.1748	America/Chicago
+uni-oklahoma	俄克拉荷马大学	University of Oklahoma	大学 · Norman	35.2059	-97.4457	America/Chicago
+uni-kansas	堪萨斯大学	University of Kansas	大学 · Lawrence	38.9543	-95.2558	America/Chicago
+uni-missouri	密苏里大学	University of Missouri	大学 · Columbia	38.9404	-92.3277	America/Chicago
+uni-nebraska-lincoln	内布拉斯加大学林肯	University of Nebraska Lincoln	大学 · Lincoln	40.8202	-96.7005	America/Chicago
+uni-iowa-state	爱荷华州立大学	Iowa State University	大学 · Ames	42.0267	-93.6465	America/Chicago
+uni-iowa	爱荷华大学	University of Iowa	大学 · Iowa City	41.6627	-91.5549	America/Chicago
+uni-kansas-state	堪萨斯州立大学	Kansas State University	大学 · Manhattan	39.1974	-96.5847	America/Chicago
+uni-oklahoma-state	俄克拉荷马州立大学	Oklahoma State University	大学 · Stillwater	36.1270	-97.0737	America/Chicago
+uni-mississippi-state	密西西比州立大学	Mississippi State University	大学 · Starkville	33.4552	-88.7944	America/Chicago
+uni-lsu	路易斯安那州立大学	Louisiana State University	大学 · Baton Rouge	30.4140	-91.1789	America/Chicago
+uni-new-mexico	新墨西哥大学	University of New Mexico	大学 · Albuquerque	35.0843	-106.6198	America/Denver
+uni-nevada-reno	内华达大学雷诺	University of Nevada Reno	大学 · Reno	39.5442	-119.8163	America/Los_Angeles
+uni-arizona	亚利桑那大学	University of Arizona	大学 · Tucson	32.2319	-110.9501	America/Phoenix
+uni-arizona-state	亚利桑那州立大学	Arizona State University	大学 · Tempe	33.4242	-111.9281	America/Phoenix
+uni-colorado-boulder	科罗拉多大学博尔德	University of Colorado Boulder	大学 · Boulder	40.0076	-105.2659	America/Denver
+uni-utah	犹他大学	University of Utah	大学 · Salt Lake City	40.7649	-111.8421	America/Denver
+uni-washington-state	华盛顿州立大学	Washington State University	大学 · Pullman	46.7319	-117.1542	America/Los_Angeles
+uni-oregon-state	俄勒冈州立大学	Oregon State University	大学 · Corvallis	44.5646	-123.2620	America/Los_Angeles
+uni-oregon	俄勒冈大学	University of Oregon	大学 · Eugene	44.0448	-123.0735	America/Los_Angeles
+uni-idaho	爱达荷大学	University of Idaho	大学 · Moscow	46.7288	-117.0126	America/Los_Angeles
+uni-montana	蒙大拿大学	University of Montana	大学 · Missoula	46.8605	-113.9852	America/Denver
+uni-montana-state	蒙大拿州立大学	Montana State University	大学 · Bozeman	45.6672	-111.0490	America/Denver
+uni-wyoming	怀俄明大学	University of Wyoming	大学 · Laramie	41.3114	-105.5911	America/Denver
+uni-alaska-fairbanks	阿拉斯加大学费尔班克斯	University of Alaska Fairbanks	大学 · Fairbanks	64.8595	-147.8497	America/Anchorage
+uni-san-diego-state	圣迭戈州立大学	San Diego State University	大学 · San Diego	32.7757	-117.0719	America/Los_Angeles
+uni-san-jose-state	圣何塞州立大学	San Jose State University	大学 · San Jose	37.3352	-121.8811	America/Los_Angeles
+uni-csu-long-beach	加州州立大学长滩	California State University Long Beach	大学 · Long Beach	33.7838	-118.1141	America/Los_Angeles
+uni-csu-fullerton	加州州立大学富勒顿	California State University Fullerton	大学 · Fullerton	33.8823	-117.8851	America/Los_Angeles
+uni-csu-northridge	加州州立大学北岭	California State University Northridge	大学 · Northridge	34.2407	-118.5301	America/Los_Angeles
+uni-csu-sacramento	加州州立大学萨克拉门托	California State University Sacramento	大学 · Sacramento	38.5602	-121.4241	America/Los_Angeles
+uni-cal-poly-pomona	加州州立理工大学波莫纳	California State Polytechnic University Pomona	大学 · Pomona	34.0560	-117.8210	America/Los_Angeles
+uni-cal-poly-slo	加州理工州立大学圣路易斯奥比斯波	California Polytechnic State University San Luis Obispo	大学 · San Luis Obispo	35.3050	-120.6625	America/Los_Angeles
+uni-san-francisco-state	旧金山州立大学	San Francisco State University	大学 · San Francisco	37.7219	-122.4782	America/Los_Angeles
+uni-hawaii-manoa	夏威夷大学马诺阿	University of Hawaii at Manoa	大学 · Honolulu	21.2970	-157.8170	Pacific/Honolulu
+uni-boise-state	博伊西州立大学	Boise State University	大学 · Boise	43.6028	-116.2019	America/Boise
+uni-north-dakota	北达科他大学	University of North Dakota	大学 · Grand Forks	47.9229	-97.0702	America/Chicago
+uni-north-dakota-state	北达科他州立大学	North Dakota State University	大学 · Fargo	46.8917	-96.8008	America/Chicago
+uni-south-dakota-state	南达科他州立大学	South Dakota State University	大学 · Brookings	44.3197	-96.7836	America/Chicago
+uni-south-dakota	南达科他大学	University of South Dakota	大学 · Vermillion	42.7844	-96.9254	America/Chicago
+uni-ucf	中佛罗里达大学	University of Central Florida	大学 · Orlando	28.6024	-81.2001	America/New_York
+uni-fiu	佛罗里达国际大学	Florida International University	大学 · Miami	25.7560	-80.3757	America/New_York
+uni-usf	南佛罗里达大学	University of South Florida	大学 · Tampa	28.0587	-82.4139	America/New_York
+uni-florida-atlantic	佛罗里达大西洋大学	Florida Atlantic University	大学 · Boca Raton	26.3729	-80.1011	America/New_York
+uni-north-florida	北佛罗里达大学	University of North Florida	大学 · Jacksonville	30.2697	-81.5095	America/New_York
+uni-fgcu	佛罗里达海湾海岸大学	Florida Gulf Coast University	大学 · Fort Myers	26.4624	-81.7736	America/New_York
+uni-georgia-state	佐治亚州立大学	Georgia State University	大学 · Atlanta	33.7531	-84.3853	America/New_York
+uni-kennesaw-state	肯尼索州立大学	Kennesaw State University	大学 · Kennesaw	34.0388	-84.5831	America/New_York
+uni-north-texas	北德克萨斯大学	University of North Texas	大学 · Denton	33.2100	-97.1470	America/Chicago
+uni-texas-tech	德克萨斯理工大学	Texas Tech University	大学 · Lubbock	33.5843	-101.8783	America/Chicago
+uni-ut-dallas	德州大学达拉斯	University of Texas at Dallas	大学 · Richardson	32.9857	-96.7502	America/Chicago
+uni-ut-arlington	德州大学阿灵顿	University of Texas at Arlington	大学 · Arlington	32.7292	-97.1158	America/Chicago
+uni-houston	休斯敦大学	University of Houston	大学 · Houston	29.7199	-95.3422	America/Chicago
+uni-ut-rio-grande-valley	德州大学里奥格兰德谷	University of Texas Rio Grande Valley	大学 · Edinburg	26.3076	-98.1740	America/Chicago
+uni-sam-houston-state	萨姆休斯顿州立大学	Sam Houston State University	大学 · Huntsville	30.7134	-95.5476	America/Chicago
+uni-texas-state	德州州立大学	Texas State University	大学 · San Marcos	29.8895	-97.9384	America/Chicago
+uni-unlv	内华达大学拉斯维加斯	University of Nevada Las Vegas	大学 · Las Vegas	36.1070	-115.1438	America/Los_Angeles
+uni-new-orleans	新奥尔良大学	University of New Orleans	大学 · New Orleans	30.0286	-90.0673	America/Chicago
+uni-louisiana-tech	路易斯安那理工大学	Louisiana Tech University	大学 · Ruston	32.5294	-92.6476	America/Chicago
+uni-louisiana-lafayette	路易斯安那大学拉法叶	University of Louisiana at Lafayette	大学 · Lafayette	30.2120	-92.0198	America/Chicago
+uni-louisiana-monroe	路易斯安那大学门罗	University of Louisiana at Monroe	大学 · Monroe	32.5287	-92.0737	America/Chicago
+uni-arkansas-state	阿肯色州立大学	Arkansas State University	大学 · Jonesboro	35.8420	-90.6796	America/Chicago
+uni-western-kentucky	西肯塔基大学	Western Kentucky University	大学 · Bowling Green	36.9855	-86.4550	America/Chicago
+uni-middle-tennessee-state	中田纳西州立大学	Middle Tennessee State University	大学 · Murfreesboro	35.8499	-86.3656	America/Chicago
+uni-east-tennessee-state	东田纳西州立大学	East Tennessee State University	大学 · Johnson City	36.3036	-82.3677	America/New_York
+uni-appalachian-state	阿巴拉契亚州立大学	Appalachian State University	大学 · Boone	36.2148	-81.6802	America/New_York
+uni-unc-charlotte	北卡大学夏洛特	University of North Carolina at Charlotte	大学 · Charlotte	35.3071	-80.7352	America/New_York
+uni-unc-greensboro	北卡大学格林斯伯勒	University of North Carolina at Greensboro	大学 · Greensboro	36.0676	-79.8098	America/New_York
+uni-unc-wilmington	北卡大学威尔明顿	University of North Carolina Wilmington	大学 · Wilmington	34.2260	-77.8712	America/New_York
+uni-coastal-carolina	海岸卡罗来纳大学	Coastal Carolina University	大学 · Conway	33.7932	-79.0120	America/New_York
+uni-old-dominion	老道明大学	Old Dominion University	大学 · Norfolk	36.8865	-76.3052	America/New_York
+uni-james-madison	詹姆斯麦迪逊大学	James Madison University	大学 · Harrisonburg	38.4351	-78.8698	America/New_York
+uni-george-mason	乔治梅森大学	George Mason University	大学 · Fairfax	38.8315	-77.3078	America/New_York
+uni-towson	陶森大学	Towson University	大学 · Towson	39.3939	-76.6114	America/New_York
+uni-umbc	马里兰大学巴尔的摩郡	University of Maryland Baltimore County	大学 · Baltimore	39.2555	-76.7113	America/New_York
+uni-west-virginia	西弗吉尼亚大学	West Virginia University	大学 · Morgantown	39.6480	-79.9697	America/New_York
+uni-marshall	马歇尔大学	Marshall University	大学 · Huntington	38.4220	-82.4298	America/New_York
+uni-akron	阿克伦大学	University of Akron	大学 · Akron	41.0770	-81.5115	America/New_York
+uni-kent-state	肯特州立大学	Kent State University	大学 · Kent	41.1498	-81.3417	America/New_York
+uni-bowling-green-state	鲍灵格林州立大学	Bowling Green State University	大学 · Bowling Green	41.3780	-83.6413	America/New_York
+uni-toledo	托莱多大学	University of Toledo	大学 · Toledo	41.6578	-83.6136	America/New_York
+uni-wright-state	莱特州立大学	Wright State University	大学 · Dayton	39.7800	-84.0640	America/New_York
+uni-cleveland-state	克利夫兰州立大学	Cleveland State University	大学 · Cleveland	41.5028	-81.6751	America/New_York
+uni-northern-illinois	北伊利诺伊大学	Northern Illinois University	大学 · DeKalb	41.9339	-88.7778	America/Chicago
+uni-southern-illinois-carbondale	南伊利诺伊大学卡本代尔	Southern Illinois University Carbondale	大学 · Carbondale	37.7133	-89.2204	America/Chicago
+uni-western-illinois	西伊利诺伊大学	Western Illinois University	大学 · Macomb	40.4690	-90.6868	America/Chicago
+uni-eastern-illinois	东伊利诺伊大学	Eastern Illinois University	大学 · Charleston	39.4845	-88.1751	America/Chicago
+uni-ball-state	鲍尔州立大学	Ball State University	大学 · Muncie	40.1985	-85.4089	America/Indiana/Indianapolis
+uni-indiana-state	印第安纳州立大学	Indiana State University	大学 · Terre Haute	39.4667	-87.4139	America/Indiana/Indianapolis
+uni-western-michigan	西密歇根大学	Western Michigan University	大学 · Kalamazoo	42.2837	-85.6143	America/Detroit
+uni-central-michigan	中密歇根大学	Central Michigan University	大学 · Mount Pleasant	43.5895	-84.7755	America/Detroit
+uni-eastern-michigan	东密歇根大学	Eastern Michigan University	大学 · Ypsilanti	42.2506	-83.6245	America/Detroit
+uni-grand-valley-state	大谷州立大学	Grand Valley State University	大学 · Allendale	42.9634	-85.8881	America/Detroit
+uni-ferris-state	费里斯州立大学	Ferris State University	大学 · Big Rapids	43.6820	-85.4837	America/Detroit
+uni-oakland	奥克兰大学	Oakland University	大学 · Rochester	42.6745	-83.2150	America/Detroit
+uni-wisconsin-milwaukee	威斯康星大学密尔沃基	University of Wisconsin Milwaukee	大学 · Milwaukee	43.0753	-87.8819	America/Chicago
+uni-wisconsin-green-bay	威斯康星大学绿湾	University of Wisconsin Green Bay	大学 · Green Bay	44.5316	-87.9218	America/Chicago
+uni-wisconsin-eau-claire	威斯康星大学欧克莱尔	University of Wisconsin Eau Claire	大学 · Eau Claire	44.7967	-91.5008	America/Chicago
+uni-wisconsin-la-crosse	威斯康星大学拉克罗斯	University of Wisconsin La Crosse	大学 · La Crosse	43.8150	-91.2301	America/Chicago
+uni-wisconsin-oshkosh	威斯康星大学奥什科什	University of Wisconsin Oshkosh	大学 · Oshkosh	44.0253	-88.5514	America/Chicago
+uni-wisconsin-platteville	威斯康星大学普拉特维尔	University of Wisconsin Platteville	大学 · Platteville	42.7344	-90.4879	America/Chicago
+uni-wisconsin-stevens-point	威斯康星大学史蒂文斯波因特	University of Wisconsin Stevens Point	大学 · Stevens Point	44.5236	-89.5686	America/Chicago
+uni-wisconsin-whitewater	威斯康星大学白水	University of Wisconsin Whitewater	大学 · Whitewater	42.8347	-88.7426	America/Chicago
+uni-kings-college-london	伦敦国王学院	King's College London	大学 · London	51.5115	-0.1160	Europe/London
+uni-manchester	曼彻斯特大学	University of Manchester	大学 · Manchester	53.4668	-2.2339	Europe/London
+uni-bristol-uk	布里斯托大学	University of Bristol	大学 · Bristol	51.4584	-2.6030	Europe/London
+uni-warwick	华威大学	University of Warwick	大学 · Coventry	52.3793	-1.5615	Europe/London
+uni-glasgow	格拉斯哥大学	University of Glasgow	大学 · Glasgow	55.8721	-4.2882	Europe/London
+uni-durham	杜伦大学	Durham University	大学 · Durham	54.7675	-1.5703	Europe/London
+uni-sheffield	谢菲尔德大学	University of Sheffield	大学 · Sheffield	53.3811	-1.4888	Europe/London
+uni-leeds	利兹大学	University of Leeds	大学 · Leeds	53.8079	-1.5536	Europe/London
+uni-birmingham-uk	伯明翰大学	University of Birmingham	大学 · Birmingham	52.4508	-1.9305	Europe/London
+uni-nottingham-uk	诺丁汉大学	University of Nottingham	大学 · Nottingham	52.9399	-1.1954	Europe/London
+uni-southampton	南安普顿大学	University of Southampton	大学 · Southampton	50.9344	-1.3958	Europe/London
+uni-st-andrews	圣安德鲁斯大学	University of St Andrews	大学 · St Andrews	56.3417	-2.7943	Europe/London
+uni-york-uk	约克大学	University of York	大学 · York	53.9469	-1.0524	Europe/London
+uni-lancaster	兰卡斯特大学	Lancaster University	大学 · Lancaster	54.0104	-2.7877	Europe/London
+uni-unsw	新南威尔士大学	University of New South Wales UNSW	大学 · Sydney	-33.9173	151.2313	Australia/Sydney
+uni-anu	澳大利亚国立大学	Australian National University ANU	大学 · Canberra	-35.2777	149.1185	Australia/Sydney
+uni-monash	蒙纳士大学	Monash University	大学 · Melbourne	-37.9140	145.1300	Australia/Melbourne
+uni-queensland	昆士兰大学	University of Queensland	大学 · Brisbane	-27.4975	153.0137	Australia/Brisbane
+uni-western-australia	西澳大学	University of Western Australia	大学 · Perth	-31.9805	115.8173	Australia/Perth
+uni-adelaide	阿德莱德大学	University of Adelaide	大学 · Adelaide	-34.9206	138.6063	Australia/Adelaide
+uni-uts	悉尼科技大学	University of Technology Sydney UTS	大学 · Sydney	-33.8836	151.2008	Australia/Sydney
+uni-macquarie	麦考瑞大学	Macquarie University	大学 · Sydney	-33.7756	151.1127	Australia/Sydney
+uni-wollongong	伍伦贡大学	University of Wollongong	大学 · Wollongong	-34.4068	150.8795	Australia/Sydney
+uni-curtin	科廷大学	Curtin University	大学 · Perth	-32.0060	115.8942	Australia/Perth
+uni-qut	昆士兰科技大学	Queensland University of Technology QUT	大学 · Brisbane	-27.4776	153.0287	Australia/Brisbane
+uni-deakin	迪肯大学	Deakin University	大学 · Melbourne	-37.8475	145.1149	Australia/Melbourne
+uni-griffith	格里菲斯大学	Griffith University	大学 · Brisbane	-27.5519	153.0538	Australia/Brisbane
+uni-rmit	皇家墨尔本理工大学	RMIT University	大学 · Melbourne	-37.8080	144.9639	Australia/Melbourne
+uni-newcastle-australia	纽卡斯尔大学	University of Newcastle Australia	大学 · Newcastle	-32.8928	151.7044	Australia/Sydney
+uni-la-trobe	乐卓博大学	La Trobe University	大学 · Melbourne	-37.7210	145.0485	Australia/Melbourne
+uni-swinburne	斯威本科技大学	Swinburne University of Technology	大学 · Melbourne	-37.8221	145.0389	Australia/Melbourne
+uni-tasmania	塔斯马尼亚大学	University of Tasmania	大学 · Hobart	-42.9047	147.3238	Australia/Hobart
+uni-king-fahd-petroleum-minerals	法赫德国王石油与矿业大学	King Fahd University of Petroleum and Minerals KFUPM	大学 · Dhahran	26.3094	50.1459	Asia/Riyadh
+uni-qatar	卡塔尔大学	Qatar University QU	大学 · Doha	25.3741	51.4907	Asia/Qatar
+uni-king-saud	沙特国王大学	King Saud University KSU	大学 · Riyadh	24.7222	46.6278	Asia/Riyadh
+uni-khalifa	哈利法大学	Khalifa University KU	大学 · Abu Dhabi	24.4333	54.6167	Asia/Dubai
+uni-united-arab-emirates	阿联酋大学	United Arab Emirates University UAEU	大学 · Al Ain	24.1994	55.6761	Asia/Dubai
+uni-american-beirut	贝鲁特美国大学	American University of Beirut AUB	大学 · Beirut	33.9006	35.4826	Asia/Beirut
+uni-king-abdulaziz	阿卜杜勒阿齐兹国王大学	King Abdulaziz University KAU	大学 · Jeddah	21.4935	39.2509	Asia/Riyadh
+uni-sultan-qaboos	苏丹卡布斯大学	Sultan Qaboos University SQU	大学 · Muscat	23.5880	58.1690	Asia/Muscat
+uni-jordan	约旦大学	University of Jordan UJ	大学 · Amman	32.0137	35.8721	Asia/Amman
+uni-american-sharjah	沙迦美国大学	American University of Sharjah AUS	大学 · Sharjah	25.3098	55.4912	Asia/Dubai
+uni-king-khalid	哈立德国王大学	King Khalid University KKU	大学 · Abha	18.2465	42.5117	Asia/Riyadh
+uni-abu-dhabi	阿布扎比大学	Abu Dhabi University ADU	大学 · Abu Dhabi	24.3695	54.5740	Asia/Dubai
+uni-american-cairo	开罗美国大学	American University in Cairo AUC	大学 · Cairo	30.0186	31.5016	Africa/Cairo
+uni-imam-abdulrahman-bin-faisal	伊玛目阿卜杜勒拉赫曼本费萨尔大学	Imam Abdulrahman Bin Faisal University IAU	大学 · Dammam	26.3927	50.1926	Asia/Riyadh
+uni-cairo	开罗大学	Cairo University CU	大学 · Giza	30.0276	31.2101	Africa/Cairo
+uni-sharjah	沙迦大学	University of Sharjah UOS	大学 · Sharjah	25.2896	55.4740	Asia/Dubai
+uni-lebanese	黎巴嫩大学	Lebanese University LU	大学 · Beirut	33.8539	35.4998	Asia/Beirut
+uni-umm-al-qura	乌姆古拉大学	Umm Al-Qura University UQU	大学 · Mecca	21.3280	39.9440	Asia/Riyadh
+uni-balamand	巴拉曼德大学	University of Balamand UOB	大学 · Koura	34.3667	35.7833	Asia/Beirut
+uni-american-dubai	迪拜美国大学	American University in Dubai AUD	大学 · Dubai	25.0920	55.1562	Asia/Dubai
+uni-jordan-science-technology	约旦科技大学	Jordan University of Science and Technology JUST	大学 · Irbid	32.4950	35.9912	Asia/Amman
+uni-zayed	扎耶德大学	Zayed University ZU	大学 · Abu Dhabi	24.4194	54.4324	Asia/Dubai
+uni-ain-shams	艾因夏姆斯大学	Ain Shams University ASU	大学 · Cairo	30.0771	31.2859	Africa/Cairo
+uni-beirut-arab	贝鲁特阿拉伯大学	Beirut Arab University BAU	大学 · Beirut	33.8725	35.4961	Asia/Beirut
+uni-kuwait	科威特大学	Kuwait University KU	大学 · Kuwait City	29.2603	47.9719	Asia/Kuwait
+uni-princess-nourah	努拉公主大学	Princess Nourah bint Abdulrahman University PNU	大学 · Riyadh	24.8464	46.7247	Asia/Riyadh
+uni-qassim	卡西姆大学	Qassim University QU	大学 · Buraydah	26.3584	43.7674	Asia/Riyadh
+uni-alfaisal	费萨尔大学	Alfaisal University AU	大学 · Riyadh	24.6647	46.6758	Asia/Riyadh
+uni-al-ain	艾因大学	Al Ain University AAU	大学 · Al Ain	24.2266	55.7362	Asia/Dubai
+uni-applied-science-bahrain	巴林应用科学大学	Applied Science University ASU Bahrain	大学 · Manama	26.2074	50.5898	Asia/Bahrain
+uni-german-jordanian	德约大学	German Jordanian University GJU	大学 · Amman	31.9025	35.8422	Asia/Amman
+uni-imam-mohammed-ibn-saud	伊玛目穆罕默德本沙特伊斯兰大学	Imam Mohammad Ibn Saud Islamic University IMSIU	大学 · Riyadh	24.8142	46.7022	Asia/Riyadh
+uni-bahrain	巴林大学	University of Bahrain UOB	大学 · Sakhir	26.0483	50.5067	Asia/Bahrain
+uni-suez-canal	苏伊士运河大学	Suez Canal University SCU	大学 · Ismailia	30.5965	32.2715	Africa/Cairo
+uni-alexandria-egypt	亚历山大大学	Alexandria University AU	大学 · Alexandria	31.2001	29.9187	Africa/Cairo
+uni-zagazig	宰加济格大学	Zagazig University ZU	大学 · Zagazig	30.5877	31.4832	Africa/Cairo
+uni-mansoura	曼苏拉大学	Mansoura University MU	大学 · Mansoura	31.0419	31.3566	Africa/Cairo
+uni-assiut	艾斯尤特大学	Assiut University AUN	大学 · Assiut	27.1809	31.1837	Africa/Cairo
+uni-helwan	赫勒万大学	Helwan University HU	大学 · Cairo	29.8668	31.3153	Africa/Cairo
+uni-al-azhar	爱资哈尔大学	Al-Azhar University AZU	大学 · Cairo	30.0459	31.2625	Africa/Cairo
+uni-baghdad	巴格达大学	University of Baghdad UOB	大学 · Baghdad	33.2715	44.3782	Asia/Baghdad
+uni-basrah	巴士拉大学	University of Basrah UOB	大学 · Basra	30.5595	47.7596	Asia/Baghdad
+uni-an-najah	纳贾赫国立大学	An-Najah National University ANU	大学 · Nablus	32.2268	35.2220	Asia/Hebron
+uni-birzeit	比尔宰特大学	Birzeit University BZU	大学 · Ramallah	31.9610	35.1800	Asia/Hebron
+uni-hashemite	哈希姆大学	Hashemite University HU	大学 · Zarqa	32.1024	36.1850	Asia/Amman
+uni-yarmouk	雅尔穆克大学	Yarmouk University YU	大学 · Irbid	32.5380	35.8512	Asia/Amman
+uni-mutah	穆塔大学	Mutah University MU	大学 · Karak	31.0945	35.6984	Asia/Amman
+uni-hamad-bin-khalifa	哈马德本哈利法大学	Hamad Bin Khalifa University HBKU	大学 · Doha	25.3164	51.4435	Asia/Qatar
+uni-lebanese-american	黎巴嫩美国大学	Lebanese American University LAU	大学 · Beirut	33.8935	35.4787	Asia/Beirut
+uni-saint-joseph-beirut	贝鲁特圣约瑟夫大学	Saint Joseph University of Beirut USJ	大学 · Beirut	33.8895	35.5085	Asia/Beirut
+uni-uk-bath-rank	巴斯大学	University of Bath	大学 · Bath	51.3781	-2.3264	Europe/London
+uni-uk-loughborough-rank	拉夫堡大学	Loughborough University	大学 · Loughborough	52.7650	-1.2321	Europe/London
+uni-uk-surrey-rank	萨里大学	University of Surrey	大学 · Guildford	51.2420	-0.5900	Europe/London
+uni-uk-exeter-rank	埃克塞特大学	University of Exeter	大学 · Exeter	50.7371	-3.5351	Europe/London
+uni-uk-cardiff-rank	卡迪夫大学	Cardiff University	大学 · Cardiff	51.4866	-3.1791	Europe/London
+uni-uk-east-anglia-rank	东英吉利大学	University of East Anglia UEA	大学 · Norwich	52.6221	1.2410	Europe/London
+uni-uk-liverpool-rank	利物浦大学	University of Liverpool	大学 · Liverpool	53.4060	-2.9663	Europe/London
+uni-uk-queens-belfast-rank	贝尔法斯特女王大学	Queen's University Belfast	大学 · Belfast	54.5844	-5.9340	Europe/London
+uni-uk-arts-london-rank	伦敦艺术大学	University of the Arts London UAL	大学 · London	51.5176	-0.1165	Europe/London
+uni-uk-newcastle-rank	纽卡斯尔大学	Newcastle University	大学 · Newcastle upon Tyne	54.9783	-1.6178	Europe/London
+uni-uk-strathclyde-rank	斯特拉斯克莱德大学	University of Strathclyde	大学 · Glasgow	55.8622	-4.2428	Europe/London
+uni-uk-essex-rank	埃塞克斯大学	University of Essex	大学 · Colchester	51.8760	0.9470	Europe/London
+uni-uk-harper-adams-rank	哈珀亚当斯大学	Harper Adams University	大学 · Newport	52.7797	-2.4250	Europe/London
+uni-uk-reading-rank	雷丁大学	University of Reading	大学 · Reading	51.4414	-0.9456	Europe/London
+uni-uk-aberdeen-rank	阿伯丁大学	University of Aberdeen	大学 · Aberdeen	57.1648	-2.1015	Europe/London
+uni-uk-northumbria-rank	诺森比亚大学	Northumbria University	大学 · Newcastle upon Tyne	54.9760	-1.6080	Europe/London
+uni-uk-royal-holloway-rank	伦敦大学皇家霍洛威学院	Royal Holloway University of London	大学 · Egham	51.4257	-0.5631	Europe/London
+uni-uk-leicester-rank	莱斯特大学	University of Leicester	大学 · Leicester	52.6211	-1.1247	Europe/London
+uni-uk-aberystwyth-rank	阿伯里斯特威斯大学	Aberystwyth University	大学 · Aberystwyth	52.4153	-4.0657	Europe/London
+uni-uk-swansea-rank	斯旺西大学	Swansea University	大学 · Swansea	51.6099	-3.9809	Europe/London
+uni-uk-aston-rank	阿斯顿大学	Aston University	大学 · Birmingham	52.4862	-1.8880	Europe/London
+uni-uk-city-london-rank	伦敦大学城市学院	City St George's University of London	大学 · London	51.5279	-0.1025	Europe/London
+uni-uk-nottingham-trent-rank	诺丁汉特伦特大学	Nottingham Trent University	大学 · Nottingham	52.9560	-1.1510	Europe/London
+uni-uk-heriot-watt-rank	赫瑞瓦特大学	Heriot-Watt University	大学 · Edinburgh	55.9097	-3.3203	Europe/London
+uni-uk-lincoln-rank	林肯大学	University of Lincoln	大学 · Lincoln	53.2280	-0.5460	Europe/London
+uni-uk-oxford-brookes-rank	牛津布鲁克斯大学	Oxford Brookes University	大学 · Oxford	51.7548	-1.2240	Europe/London
+uni-uk-portsmouth-rank	朴茨茅斯大学	University of Portsmouth	大学 · Portsmouth	50.7951	-1.0933	Europe/London
+uni-uk-kent-rank	肯特大学	University of Kent	大学 · Canterbury	51.2967	1.0630	Europe/London
+uni-uk-ulster-rank	阿尔斯特大学	Ulster University	大学 · Belfast	54.6030	-5.9300	Europe/London
+uni-uk-sussex-rank	萨塞克斯大学	University of Sussex	大学 · Brighton	50.8679	-0.0877	Europe/London
+uni-uk-stirling-rank	斯特灵大学	University of Stirling	大学 · Stirling	56.1451	-3.9192	Europe/London
+uni-uk-bangor-rank	班戈大学	Bangor University	大学 · Bangor	53.2295	-4.1294	Europe/London
+uni-uk-queen-mary-rank	伦敦玛丽女王大学	Queen Mary University of London	大学 · London	51.5247	-0.0399	Europe/London
+uni-uk-west-london-rank	西伦敦大学	University of West London	大学 · London	51.5066	-0.3043	Europe/London
+uni-uk-bournemouth-rank	伯恩茅斯大学	Bournemouth University	大学 · Bournemouth	50.7429	-1.8975	Europe/London
+uni-uk-norwich-arts-rank	诺里奇艺术大学	Norwich University of the Arts	大学 · Norwich	52.6309	1.2974	Europe/London
+uni-uk-edge-hill-rank	边山大学	Edge Hill University	大学 · Ormskirk	53.5586	-2.8753	Europe/London
+uni-uk-dundee-rank	邓迪大学	University of Dundee	大学 · Dundee	56.4575	-2.9829	Europe/London
+uni-uk-soas-rank	伦敦大学亚非学院	SOAS University of London	大学 · London	51.5223	-0.1282	Europe/London
+uni-uk-manchester-met-rank	曼彻斯特城市大学	Manchester Metropolitan University	大学 · Manchester	53.4707	-2.2380	Europe/London
+uni-uk-chester-rank	切斯特大学	University of Chester	大学 · Chester	53.1960	-2.8970	Europe/London
+uni-uk-falmouth-rank	法尔茅斯大学	Falmouth University	大学 · Falmouth	50.1700	-5.1230	Europe/London
+uni-uk-sheffield-hallam-rank	谢菲尔德哈勒姆大学	Sheffield Hallam University	大学 · Sheffield	53.3782	-1.4659	Europe/London
+uni-uk-plymouth-rank	普利茅斯大学	University of Plymouth	大学 · Plymouth	50.3755	-4.1380	Europe/London
+uni-uk-keele-rank	基尔大学	Keele University	大学 · Keele	53.0033	-2.2720	Europe/London
+uni-uk-leeds-beckett-rank	利兹贝克特大学	Leeds Beckett University	大学 · Leeds	53.8038	-1.5480	Europe/London
+uni-uk-brighton-rank	布莱顿大学	University of Brighton	大学 · Brighton	50.8225	-0.1372	Europe/London
+uni-uk-coventry-rank	考文垂大学	Coventry University	大学 · Coventry	52.4077	-1.5030	Europe/London
+uni-uk-huddersfield-rank	哈德斯菲尔德大学	University of Huddersfield	大学 · Huddersfield	53.6430	-1.7780	Europe/London
+uni-uk-cardiff-met-rank	卡迪夫都市大学	Cardiff Metropolitan University	大学 · Cardiff	51.4950	-3.2130	Europe/London
+uni-uk-arts-bournemouth-rank	伯恩茅斯艺术大学	Arts University Bournemouth	大学 · Bournemouth	50.7410	-1.8970	Europe/London
+uni-uk-royal-agricultural-rank	皇家农业大学	Royal Agricultural University	大学 · Cirencester	51.7160	-1.9950	Europe/London
+uni-uk-goldsmiths-rank	伦敦大学金史密斯学院	Goldsmiths University of London	大学 · London	51.4743	-0.0354	Europe/London
+uni-uk-sunderland-rank	桑德兰大学	University of Sunderland	大学 · Sunderland	54.9050	-1.3920	Europe/London
+uni-uk-hull-rank	赫尔大学	University of Hull	大学 · Hull	53.7710	-0.3670	Europe/London
+uni-uk-liverpool-hope-rank	利物浦希望大学	Liverpool Hope University	大学 · Liverpool	53.3910	-2.8910	Europe/London
+uni-uk-st-georges-rank	伦敦大学圣乔治学院	St George's University of London	大学 · London	51.4268	-0.1755	Europe/London
+uni-uk-glasgow-caledonian-rank	格拉斯哥卡利多尼安大学	Glasgow Caledonian University	大学 · Glasgow	55.8661	-4.2500	Europe/London
+uni-uk-suffolk-rank	萨福克大学	University of Suffolk	大学 · Ipswich	52.0527	1.1628	Europe/London
+uni-uk-liverpool-john-moores-rank	利物浦约翰摩尔斯大学	Liverpool John Moores University	大学 · Liverpool	53.4034	-2.9660	Europe/London
+uni-uk-salford-rank	索尔福德大学	University of Salford	大学 · Salford	53.4875	-2.2704	Europe/London
+uni-uk-chichester-rank	奇切斯特大学	University of Chichester	大学 · Chichester	50.8446	-0.7740	Europe/London
+uni-uk-hertfordshire-rank	赫特福德大学	University of Hertfordshire	大学 · Hatfield	51.7530	-0.2400	Europe/London
+uni-uk-worcester-rank	伍斯特大学	University of Worcester	大学 · Worcester	52.1950	-2.2420	Europe/London
+uni-uk-st-marys-twickenham-rank	特威克纳姆圣玛丽大学	St Mary's University Twickenham	大学 · London	51.4379	-0.3357	Europe/London
+uni-uk-kingston-rank	金斯顿大学	Kingston University	大学 · London	51.4033	-0.3033	Europe/London
+uni-uk-creative-arts-rank	创意艺术大学	University for the Creative Arts	大学 · Farnham	51.2140	-0.7980	Europe/London
+uni-uk-edinburgh-napier-rank	爱丁堡龙比亚大学	Edinburgh Napier University	大学 · Edinburgh	55.9330	-3.2130	Europe/London
+uni-uk-birmingham-city-rank	伯明翰城市大学	Birmingham City University	大学 · Birmingham	52.4830	-1.8870	Europe/London
+uni-uk-roehampton-rank	罗汉普顿大学	University of Roehampton	大学 · London	51.4560	-0.2440	Europe/London
+uni-uk-teesside-rank	提赛德大学	Teesside University	大学 · Middlesbrough	54.5720	-1.2340	Europe/London
+uni-uk-robert-gordon-rank	罗伯特戈登大学	Robert Gordon University	大学 · Aberdeen	57.1180	-2.1430	Europe/London
+uni-uk-leeds-arts-rank	利兹艺术大学	Leeds Arts University	大学 · Leeds	53.8070	-1.5510	Europe/London
+uni-uk-brunel-rank	布鲁内尔大学伦敦	Brunel University London	大学 · London	51.5320	-0.4720	Europe/London
+uni-uk-winchester-rank	温彻斯特大学	University of Winchester	大学 · Winchester	51.0610	-1.3270	Europe/London
+uni-uk-solent-rank	索伦特大学	Solent University	大学 · Southampton	50.9080	-1.4010	Europe/London
+uni-uk-gloucestershire-rank	格洛斯特郡大学	University of Gloucestershire	大学 · Cheltenham	51.8970	-2.0830	Europe/London
+uni-uk-central-lancashire-rank	中央兰开夏大学	University of Central Lancashire UCLan	大学 · Preston	53.7630	-2.7080	Europe/London
+uni-uk-derby-rank	德比大学	University of Derby	大学 · Derby	52.9380	-1.4960	Europe/London
+uni-au-western-sydney-rank	西悉尼大学	Western Sydney University WSU	大学 · Sydney	-33.8150	150.9960	Australia/Sydney
+uni-au-canberra-rank	堪培拉大学	University of Canberra UC	大学 · Canberra	-35.2380	149.0840	Australia/Sydney
+uni-au-flinders-rank	弗林德斯大学	Flinders University	大学 · Adelaide	-35.0220	138.5700	Australia/Adelaide
+uni-au-james-cook-rank	詹姆斯库克大学	James Cook University JCU	大学 · Townsville	-19.3290	146.7590	Australia/Brisbane
+uni-au-southern-queensland-rank	南昆士兰大学	University of Southern Queensland UniSQ	大学 · Toowoomba	-27.6040	151.9300	Australia/Brisbane
+uni-au-south-australia-rank	南澳大学	University of South Australia UniSA	大学 · Adelaide	-34.9210	138.6060	Australia/Adelaide
+uni-au-murdoch-rank	默多克大学	Murdoch University	大学 · Perth	-32.0660	115.8350	Australia/Perth
+uni-au-charles-darwin-rank	查尔斯达尔文大学	Charles Darwin University CDU	大学 · Darwin	-12.3710	130.8690	Australia/Darwin
+uni-au-edith-cowan-rank	伊迪斯科文大学	Edith Cowan University ECU	大学 · Perth	-31.7510	115.7720	Australia/Perth
+uni-au-bond-rank	邦德大学	Bond University	大学 · Gold Coast	-28.0730	153.4160	Australia/Brisbane
+uni-au-victoria-rank	维多利亚大学	Victoria University Melbourne VU	大学 · Melbourne	-37.7930	144.8990	Australia/Melbourne
+uni-au-australian-catholic-rank	澳大利亚天主教大学	Australian Catholic University ACU	大学 · Sydney	-33.8870	151.2130	Australia/Sydney
+uni-au-central-queensland-rank	中央昆士兰大学	Central Queensland University CQU	大学 · Rockhampton	-23.3220	150.5210	Australia/Brisbane
+uni-au-federation-rank	澳大利亚联邦大学	Federation University Australia	大学 · Ballarat	-37.6260	143.8910	Australia/Melbourne
+uni-au-southern-cross-rank	南十字星大学	Southern Cross University SCU	大学 · Lismore	-28.8150	153.2930	Australia/Sydney
+uni-au-charles-sturt-rank	查尔斯斯特大学	Charles Sturt University CSU	大学 · Bathurst	-33.4290	149.5620	Australia/Sydney
+uni-au-notre-dame-rank	澳大利亚圣母大学	University of Notre Dame Australia UNDA	大学 · Fremantle	-32.0560	115.7440	Australia/Perth
+uni-ca-toronto-rank	多伦多大学	University of Toronto U of T	大学 · Toronto	43.6629	-79.3957	America/Toronto
+uni-ca-ubc-rank	英属哥伦比亚大学	University of British Columbia UBC	大学 · Vancouver	49.2606	-123.2460	America/Vancouver
+uni-ca-mcgill-rank	麦吉尔大学	McGill University	大学 · Montreal	45.5048	-73.5772	America/Toronto
+uni-ca-alberta-rank	阿尔伯塔大学	University of Alberta UAlberta	大学 · Edmonton	53.5232	-113.5263	America/Edmonton
+uni-ca-waterloo-rank	滑铁卢大学	University of Waterloo	大学 · Waterloo	43.4723	-80.5449	America/Toronto
+uni-ca-calgary-rank	卡尔加里大学	University of Calgary UCalgary	大学 · Calgary	51.0782	-114.1351	America/Edmonton
+uni-ca-montreal-rank	蒙特利尔大学	University of Montreal Universite de Montreal UdeM	大学 · Montreal	45.5048	-73.6130	America/Toronto
+uni-ca-simon-fraser-rank	西蒙菲莎大学	Simon Fraser University SFU	大学 · Burnaby	49.2781	-122.9199	America/Vancouver
+uni-ca-mcmaster-rank	麦克马斯特大学	McMaster University	大学 · Hamilton	43.2609	-79.9192	America/Toronto
+uni-ca-western-rank	西安大略大学	Western University University of Western Ontario	大学 · London	43.0096	-81.2737	America/Toronto
+uni-ca-ottawa-rank	渥太华大学	University of Ottawa uOttawa	大学 · Ottawa	45.4231	-75.6831	America/Toronto
+uni-ca-laval-rank	拉瓦尔大学	Laval University Universite Laval	大学 · Quebec City	46.7817	-71.2747	America/Toronto
+uni-ca-york-rank	约克大学	York University Canada	大学 · Toronto	43.7735	-79.5019	America/Toronto
+uni-ca-dalhousie-rank	达尔豪斯大学	Dalhousie University	大学 · Halifax	44.6366	-63.5917	America/Halifax
+uni-ca-manitoba-rank	曼尼托巴大学	University of Manitoba	大学 · Winnipeg	49.8075	-97.1366	America/Winnipeg
+uni-ca-victoria-rank	维多利亚大学	University of Victoria UVic	大学 · Victoria	48.4634	-123.3117	America/Vancouver
+uni-ca-saskatchewan-rank	萨斯喀彻温大学	University of Saskatchewan USask	大学 · Saskatoon	52.1332	-106.6312	America/Regina
+uni-ca-carleton-rank	卡尔顿大学	Carleton University	大学 · Ottawa	45.3876	-75.6960	America/Toronto
+uni-ca-guelph-rank	圭尔夫大学	University of Guelph	大学 · Guelph	43.5327	-80.2267	America/Toronto
+uni-ca-concordia-rank	康考迪亚大学	Concordia University Montreal	大学 · Montreal	45.4973	-73.5789	America/Toronto
+uni-ca-uqam-rank	魁北克大学蒙特利尔分校	University of Quebec in Montreal UQAM	大学 · Montreal	45.5125	-73.5604	America/Toronto
+uni-ca-memorial-rank	纽芬兰纪念大学	Memorial University of Newfoundland MUN	大学 · St. John's	47.5720	-52.7320	America/St_Johns
+uni-ca-sherbrooke-rank	舍布鲁克大学	University of Sherbrooke Universite de Sherbrooke	大学 · Sherbrooke	45.3784	-71.9282	America/Toronto
+uni-ca-toronto-metropolitan-rank	多伦多都会大学	Toronto Metropolitan University Ryerson University	大学 · Toronto	43.6577	-79.3788	America/Toronto
+uni-ca-new-brunswick-rank	新不伦瑞克大学	University of New Brunswick UNB	大学 · Fredericton	45.9467	-66.6417	America/Moncton
+uni-ca-windsor-rank	温莎大学	University of Windsor	大学 · Windsor	42.3043	-83.0660	America/Toronto
+uni-ca-queens-rank	女王大学	Queen's University Canada	大学 · Kingston	44.2253	-76.4951	America/Toronto
+uni-ca-polytechnique-montreal-rank	蒙特利尔理工学院	Polytechnique Montreal	大学 · Montreal	45.5048	-73.6120	America/Toronto
+uni-ca-wilfrid-laurier-rank	劳里埃大学	Wilfrid Laurier University	大学 · Waterloo	43.4738	-80.5275	America/Toronto
+uni-ca-brock-rank	布鲁克大学	Brock University	大学 · St. Catharines	43.1177	-79.2477	America/Toronto
+uni-ca-regina-rank	里贾纳大学	University of Regina	大学 · Regina	50.4152	-104.5872	America/Regina
+uni-ca-winnipeg-rank	温尼伯大学	University of Winnipeg	大学 · Winnipeg	49.8917	-97.1536	America/Winnipeg
+uni-ca-hec-montreal-rank	蒙特利尔高等商学院	HEC Montreal	大学 · Montreal	45.5039	-73.6205	America/Toronto
+uni-ca-trent-rank	特伦特大学	Trent University	大学 · Peterborough	44.3571	-78.2897	America/Toronto
+uni-ca-lakehead-rank	湖首大学	Lakehead University	大学 · Thunder Bay	48.4215	-89.2604	America/Toronto
+uni-ca-uqtr-rank	魁北克大学三河分校	University of Quebec Trois-Rivieres UQTR	大学 · Trois-Rivieres	46.3432	-72.5430	America/Toronto
+uni-ca-lethbridge-rank	莱斯布里奇大学	University of Lethbridge	大学 · Lethbridge	49.6761	-112.8590	America/Edmonton
+uni-ca-uqac-rank	魁北克大学希库蒂米分校	University of Quebec at Chicoutimi UQAC	大学 · Chicoutimi	48.4194	-71.0528	America/Toronto
+uni-ca-laurentian-rank	劳伦森大学	Laurentian University	大学 · Greater Sudbury	46.4668	-80.9750	America/Toronto
+uni-ca-saint-marys-rank	圣玛丽大学	Saint Mary's University Canada	大学 · Halifax	44.6310	-63.5810	America/Halifax
+uni-ca-ontario-tech-rank	安大略理工大学	Ontario Tech University	大学 · Oshawa	43.9457	-78.8960	America/Toronto
+uni-ca-prince-edward-island-rank	爱德华王子岛大学	University of Prince Edward Island UPEI	大学 · Charlottetown	46.2570	-63.1390	America/Halifax
+uni-ca-acadia-rank	阿卡迪亚大学	Acadia University	大学 · Wolfville	45.0910	-64.3670	America/Halifax
+uni-ca-ets-rank	高等技术学院	Ecole de technologie superieure ETS University of Quebec	大学 · Montreal	45.4940	-73.5620	America/Toronto
+uni-ca-st-francis-xavier-rank	圣弗朗西斯泽维尔大学	St. Francis Xavier University StFX	大学 · Antigonish	45.6170	-61.9940	America/Halifax
+uni-ca-unbc-rank	北英属哥伦比亚大学	University of Northern British Columbia UNBC	大学 · Prince George	53.8920	-122.8130	America/Vancouver
+uni-ca-moncton-rank	蒙克顿大学	University of Moncton Universite de Moncton	大学 · Moncton	46.1050	-64.7850	America/Moncton
+uni-ca-mount-allison-rank	蒙特爱立森大学	Mount Allison University	大学 · Sackville	45.8970	-64.3690	America/Moncton
+uni-ca-uqar-rank	魁北克大学里穆斯基分校	University of Quebec in Rimouski UQAR	大学 · Rimouski	48.4520	-68.5140	America/Toronto
+uni-ca-mount-royal-rank	皇家山大学	Mount Royal University	大学 · Calgary	51.0110	-114.1330	America/Edmonton
+uni-ca-brandon-rank	布兰登大学	Brandon University	大学 · Brandon	49.8450	-99.9630	America/Winnipeg
+uni-ca-uqo-rank	魁北克大学乌塔韦分校	University of Quebec in Outaouais UQO	大学 · Gatineau	45.4280	-75.7350	America/Toronto
+uni-ca-thompson-rivers-rank	汤普森河大学	Thompson Rivers University TRU	大学 · Kamloops	50.6700	-120.3660	America/Vancouver
+uni-ca-macewan-rank	麦科文大学	MacEwan University	大学 · Edmonton	53.5470	-113.5030	America/Edmonton
+uni-ca-university-of-quebec-rank	魁北克大学	University of Quebec	大学 · Quebec City	46.8139	-71.2080	America/Toronto
+uni-ca-bishops-rank	主教大学	Bishop's University	大学 · Sherbrooke	45.3660	-71.8480	America/Toronto
+uni-ca-bcit-rank	不列颠哥伦比亚理工学院	British Columbia Institute of Technology BCIT	大学 · Burnaby	49.2500	-123.0010	America/Vancouver
+uni-ca-vancouver-island-rank	温哥华岛大学	Vancouver Island University VIU	大学 · Nanaimo	49.1570	-123.9670	America/Vancouver
+uni-ca-royal-military-college-rank	加拿大皇家军事学院	Royal Military College of Canada RMC	大学 · Kingston	44.2310	-76.4690	America/Toronto
+uni-ca-mount-saint-vincent-rank	圣文森特山大学	Mount Saint Vincent University MSVU	大学 · Halifax	44.6690	-63.6470	America/Halifax
+uni-ca-uqat-rank	魁北克大学阿比蒂比-蒂米斯卡曼格分校	University of Quebec Abitibi-Temiscamingue UQAT	大学 · Rouyn-Noranda	48.2430	-79.0190	America/Toronto
+uni-ca-ocad-rank	安大略艺术设计大学	OCAD University	大学 · Toronto	43.6530	-79.3910	America/Toronto
+uni-ca-royal-roads-rank	皇家路大学	Royal Roads University	大学 · Victoria	48.4340	-123.4730	America/Vancouver
+uni-ca-fraser-valley-rank	弗雷泽河谷大学	University of the Fraser Valley UFV	大学 · Abbotsford	49.0300	-122.2850	America/Vancouver
+uni-ca-trinity-western-rank	西三一大学	Trinity Western University TWU	大学 · Langley	49.1400	-122.6010	America/Vancouver
+uni-ca-nipissing-rank	尼皮辛大学	Nipissing University	大学 · North Bay	46.3400	-79.4900	America/Toronto
+uni-ca-cape-breton-rank	布雷顿角大学	Cape Breton University CBU	大学 · Sydney	46.1700	-60.0920	America/Glace_Bay
+uni-ca-kwantlen-rank	昆特兰理工大学	Kwantlen Polytechnic University KPU	大学 · Surrey	49.1320	-122.8710	America/Vancouver
+uni-ca-st-thomas-rank	圣托马斯大学	St. Thomas University Canada	大学 · Fredericton	45.9450	-66.6420	America/Moncton
+uni-ca-nait-rank	北阿尔伯塔理工学院	Northern Alberta Institute of Technology NAIT	大学 · Edmonton	53.5680	-113.5050	America/Edmonton
+uni-ca-algoma-rank	阿尔戈马大学	Algoma University	大学 · Sault Ste. Marie	46.5020	-84.2870	America/Toronto
+uni-ca-sait-rank	南阿尔伯塔理工学院	SAIT Polytechnic Southern Alberta Institute of Technology	大学 · Calgary	51.0640	-114.0890	America/Edmonton
+uni-ca-capilano-rank	卡皮拉诺大学	Capilano University	大学 · North Vancouver	49.3200	-123.0190	America/Vancouver
+uni-ca-emily-carr-rank	艾米丽卡尔艺术与设计大学	Emily Carr University of Art and Design	大学 · Vancouver	49.2670	-123.0920	America/Vancouver
+uni-ca-concordia-edmonton-rank	埃德蒙顿康考迪亚大学	Concordia University of Edmonton	大学 · Edmonton	53.5590	-113.4440	America/Edmonton
+uni-ca-quest-rank	奎斯特大学	Quest University Canada	大学 · Squamish	49.7360	-123.1340	America/Vancouver
+uni-ca-kings-edmonton-rank	国王大学	The King's University Canada	大学 · Edmonton	53.4700	-113.3900	America/Edmonton
+uni-ca-kings-college-halifax-rank	国王学院大学	University of King's College	大学 · Halifax	44.6370	-63.5960	America/Halifax
+uni-ca-nscad-rank	新斯科舍艺术设计大学	NSCAD University	大学 · Halifax	44.6490	-63.5730	America/Halifax
+uni-ca-saint-boniface-rank	圣博尼法斯大学	University of Saint-Boniface	大学 · Winnipeg	49.8880	-97.1190	America/Winnipeg
+uni-ca-enap-rank	国家公共行政学院	National School of Public Administration ENAP	大学 · Quebec City	46.8120	-71.2170	America/Toronto
+uni-ca-first-nations-rank	加拿大第一民族大学	First Nations University of Canada	大学 · Regina	50.4190	-104.5870	America/Regina
+uni-ca-university-canada-west-rank	加拿大西部大学	University Canada West UCW	大学 · Vancouver	49.2820	-123.1150	America/Vancouver
+uni-ca-sainte-anne-rank	圣安妮大学	University of Sainte-Anne	大学 · Pointe de l'Eglise	44.3300	-66.1200	America/Halifax
+uni-ca-college-north-atlantic-rank	北大西洋学院	College of the North Atlantic	大学 · Stephenville	48.5500	-58.5800	America/St_Johns
+uni-ca-canadian-mennonite-rank	加拿大门诺大学	Canadian Mennonite University CMU	大学 · Winnipeg	49.8590	-97.2320	America/Winnipeg
+uni-ca-crandall-rank	克兰德尔大学	Crandall University	大学 · Moncton	46.1340	-64.8390	America/Moncton
+uni-ca-redeemer-rank	救赎主大学	Redeemer University	大学 · Ancaster	43.2090	-79.9490	America/Toronto
+uni-ca-ambrose-rank	安布罗斯大学	Ambrose University	大学 · Calgary	51.0310	-114.1900	America/Edmonton
+uni-ca-burman-rank	伯曼大学	Burman University	大学 · Lacombe	52.4680	-113.7330	America/Edmonton
+uni-ca-st-thomas-more-rank	圣托马斯莫尔学院	St. Thomas More College	大学 · Saskatoon	52.1320	-106.6300	America/Regina
+uni-ca-dominican-rank	多米尼加大学学院	Dominican University College	大学 · Ottawa	45.4300	-75.6900	America/Toronto
+uni-ca-hearst-rank	赫斯特大学	University of Hearst	大学 · Hearst	49.6860	-83.6660	America/Toronto
+uni-ca-yorkville-rank	约克维尔大学	Yorkville University	大学 · Fredericton	45.9630	-66.6430	America/Moncton
+uni-ca-nvit-rank	尼古拉谷理工学院	Nicola Valley Institute of Technology NVIT	大学 · Merritt	50.1120	-120.7890	America/Vancouver
+uni-ca-luther-regina-rank	里贾纳大学路德学院	Luther College at the University of Regina	大学 · Regina	50.4190	-104.5890	America/Regina
+uni-ca-st-marys-calgary-rank	卡尔加里圣玛丽大学	St Mary's University Calgary	大学 · Calgary	50.9120	-114.0710	America/Edmonton
+uni-ca-aurora-rank	奥罗拉学院	Aurora College	大学 · Fort Smith	60.0040	-111.8900	America/Yellowknife
+uni-ca-campion-regina-rank	里贾纳大学坎皮恩学院	Campion College at the University of Regina	大学 · Regina	50.4180	-104.5900	America/Regina
+uni-ca-kingswood-rank	金斯伍德大学	Kingswood University	大学 · Sussex	45.7230	-65.5140	America/Moncton
