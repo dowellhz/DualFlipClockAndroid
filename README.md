@@ -12,7 +12,7 @@ The app is intentionally simple at runtime: it draws the clock UI directly with 
 - Black background with a deterministic star field.
 - Primary clock defaults to Monterey.
 - Secondary clock supports GPS location or a selected city/school.
-- City, university, and US high-school picker.
+- City, university, and high-school picker.
 - Local search from the bundled `cities.tsv` data file.
 - University and high-school acronym search.
 - Local date and weekday display for each selected time zone.
@@ -47,6 +47,12 @@ The app declares:
 Location permission is only needed when the user chooses GPS for the secondary clock.
 
 ## Build
+
+Requirements:
+
+- Android Studio with Android Gradle Plugin 8.5.2 support.
+- JDK 17.
+- Android SDK Platform 35.
 
 Clone the repository, then open the project root folder in Android Studio:
 
@@ -85,6 +91,8 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 ## Release Signing
 
 Release signing is configured through a local `keystore.properties` file at the project root. This file must stay local and must not be committed.
+
+You must create `keystore.properties` and the referenced signing key before running a release build.
 
 Template:
 
