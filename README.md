@@ -48,10 +48,10 @@ Location permission is only needed when the user chooses GPS for the secondary c
 
 ## Build
 
-Open this folder in Android Studio:
+Clone the repository, then open the project root folder in Android Studio:
 
 ```text
-/Users/linlu/DualFlipClockAndroid
+DualFlipClockAndroid
 ```
 
 Then run the `app` configuration on a connected Android device or emulator.
