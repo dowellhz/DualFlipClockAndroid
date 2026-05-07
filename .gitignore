@@ -10,5 +10,5 @@ keystore.properties
 *.ap_
 *.idsig
 *.iml
+.DS_Store
 .idea/
-

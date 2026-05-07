@@ -12,6 +12,7 @@ import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Matrix;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.graphics.RectF;
 import android.graphics.Shader;
 import android.graphics.drawable.GradientDrawable;
@@ -72,8 +73,9 @@ public class MainActivity extends Activity {
     private static final float FLIP_DURATION_MS = 620f;
     private static final double BEIJING_LATITUDE = 39.9042;
     private static final double BEIJING_LONGITUDE = 116.4074;
+    private static final int MAX_WEATHER_RESPONSE_CHARS = 64 * 1024;
     private final Handler handler = new Handler(Looper.getMainLooper());
-    private final ExecutorService executor = Executors.newFixedThreadPool(4);
+    private final ExecutorService executor = Executors.newFixedThreadPool(2);
     private FrameLayout rootLayout;
     private ClockSurface clockSurface;
     private SharedPreferences preferences;
@@ -88,6 +90,7 @@ public class MainActivity extends Activity {
     private WeatherSnapshot secondaryWeather = WeatherSnapshot.unknown();
     private View activePicker = null;
     private boolean useSideBySideLayout = true;
+    private volatile boolean destroyed = false;
 
     private final Runnable tickRunnable = new Runnable() {
         @Override
@@ -127,13 +130,14 @@ public class MainActivity extends Activity {
         setContentView(rootLayout);
         hideSystemUi();
         requestLocation();
-        refreshTemperatures();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         hideSystemUi();
+        handler.removeCallbacks(tickRunnable);
+        handler.removeCallbacks(weatherRunnable);
         handler.post(tickRunnable);
         handler.post(weatherRunnable);
     }
@@ -148,6 +152,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        destroyed = true;
+        handler.removeCallbacksAndMessages(null);
         executor.shutdownNow();
     }
 
@@ -221,7 +227,9 @@ public class MainActivity extends Activity {
                 gpsCityName = "北京";
             }
 
+            if (destroyed) return;
             handler.post(() -> {
+                if (destroyed) return;
                 refreshTemperatures();
                 clockSurface.invalidate();
             });
@@ -309,7 +317,12 @@ public class MainActivity extends Activity {
             } catch (Exception exception) {
             }
             WeatherSnapshot snapshot = new WeatherSnapshot(value, weatherCode, isDay);
-            handler.post(() -> callback.onWeather(snapshot));
+            if (destroyed) return;
+            handler.post(() -> {
+                if (!destroyed) {
+                    callback.onWeather(snapshot);
+                }
+            });
         });
     }
 
@@ -338,7 +351,12 @@ public class MainActivity extends Activity {
             reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             StringBuilder builder = new StringBuilder();
             String line;
-            while ((line = reader.readLine()) != null) builder.append(line);
+            while ((line = reader.readLine()) != null) {
+                builder.append(line);
+                if (builder.length() > MAX_WEATHER_RESPONSE_CHARS) {
+                    throw new java.io.IOException("Weather response too large");
+                }
+            }
             return new JSONObject(builder.toString());
         } finally {
             if (reader != null) {
@@ -572,6 +590,13 @@ public class MainActivity extends Activity {
         private final Matrix flipMatrix = new Matrix();
         private final SimpleDateFormat timeFormat = new SimpleDateFormat("HHmmss", Locale.US);
         private final SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd EEEE", Locale.SIMPLIFIED_CHINESE);
+        private final Date drawDate = new Date();
+        private final RectF rect = new RectF();
+        private final RectF topRect = new RectF();
+        private final RectF bottomRect = new RectF();
+        private final RectF tempRect = new RectF();
+        private final RectF tempRect2 = new RectF();
+        private final Path iconPath = new Path();
         private final char[] lastDigits = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
         private final char[] previousDigits = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
         private final long[] changedAt = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
@@ -681,7 +706,8 @@ public class MainActivity extends Activity {
             Calendar calendar = Calendar.getInstance(zone);
             boolean dimmed = forceDimmed || (!primary && shouldDim(calendar));
             int color = dimmed ? Color.rgb(72, 72, 72) : Color.WHITE;
-            String digits = timeFormatFor(zone).format(new Date(now)).substring(0, 4);
+            drawDate.setTime(now);
+            String digits = timeFormatFor(zone).format(drawDate).substring(0, 4);
             String date = dateWithTemperature(zone, temp, now);
 
             float centerX = x + width / 2f;
@@ -745,7 +771,8 @@ public class MainActivity extends Activity {
             Calendar calendar = Calendar.getInstance(zone);
             boolean dimmed = forceDimmed || (!primary && shouldDim(calendar));
             int color = dimmed ? Color.rgb(64, 64, 64) : Color.WHITE;
-            String digits = timeFormatFor(zone).format(new Date(now));
+            drawDate.setTime(now);
+            String digits = timeFormatFor(zone).format(drawDate);
             String date = dateWithTemperature(zone, temp, now);
             float titleSize = clamp(cardH * 0.34f, 26f, 52f);
             float detailSize = clamp(cardH * 0.27f, 20f, 42f);
@@ -791,7 +818,8 @@ public class MainActivity extends Activity {
         }
 
         private String dateWithTemperature(TimeZone zone, String temp, long now) {
-            return dateFormatFor(zone).format(new Date(now)) + " " + temp;
+            drawDate.setTime(now);
+            return dateFormatFor(zone).format(drawDate) + " " + temp;
         }
 
         private boolean shouldDim(Calendar calendar) {
@@ -947,7 +975,8 @@ public class MainActivity extends Activity {
             canvas.drawCircle(x + size * 0.28f, y + size * 0.50f, size * 0.20f, paint);
             canvas.drawCircle(x + size * 0.48f, y + size * 0.36f, size * 0.26f, paint);
             canvas.drawCircle(x + size * 0.70f, y + size * 0.50f, size * 0.20f, paint);
-            canvas.drawRoundRect(new RectF(x + size * 0.16f, y + size * 0.48f, x + size * 0.84f, y + size * 0.72f), size * 0.10f, size * 0.10f, paint);
+            tempRect.set(x + size * 0.16f, y + size * 0.48f, x + size * 0.84f, y + size * 0.72f);
+            canvas.drawRoundRect(tempRect, size * 0.10f, size * 0.10f, paint);
         }
 
         private void drawRain(Canvas canvas, float x, float y, float size, float alphaScale) {
@@ -976,15 +1005,15 @@ public class MainActivity extends Activity {
 
         private void drawLightning(Canvas canvas, float x, float y, float size, float alphaScale) {
             paint.setColor(Color.argb((int) (240 * alphaScale), 255, 203, 40));
-            android.graphics.Path path = new android.graphics.Path();
-            path.moveTo(x + size * 0.50f, y);
-            path.lineTo(x + size * 0.20f, y + size * 0.52f);
-            path.lineTo(x + size * 0.48f, y + size * 0.48f);
-            path.lineTo(x + size * 0.28f, y + size);
-            path.lineTo(x + size * 0.84f, y + size * 0.34f);
-            path.lineTo(x + size * 0.55f, y + size * 0.38f);
-            path.close();
-            canvas.drawPath(path, paint);
+            iconPath.reset();
+            iconPath.moveTo(x + size * 0.50f, y);
+            iconPath.lineTo(x + size * 0.20f, y + size * 0.52f);
+            iconPath.lineTo(x + size * 0.48f, y + size * 0.48f);
+            iconPath.lineTo(x + size * 0.28f, y + size);
+            iconPath.lineTo(x + size * 0.84f, y + size * 0.34f);
+            iconPath.lineTo(x + size * 0.55f, y + size * 0.38f);
+            iconPath.close();
+            canvas.drawPath(iconPath, paint);
         }
 
         private void drawFog(Canvas canvas, float x, float y, float size, float alphaScale) {
@@ -1009,10 +1038,10 @@ public class MainActivity extends Activity {
         }
 
         private void drawFlipDigit(Canvas canvas, String digit, String previousDigit, float x, float y, float w, float h, int color, float progress, boolean dimmed) {
-            RectF rect = new RectF(x, y, x + w, y + h);
+            rect.set(x, y, x + w, y + h);
             float hinge = y + h / 2f;
-            RectF top = new RectF(x, y, x + w, hinge + 1f);
-            RectF bottom = new RectF(x, hinge - 1f, x + w, y + h);
+            topRect.set(x, y, x + w, hinge + 1f);
+            bottomRect.set(x, hinge - 1f, x + w, y + h);
 
             if (progress >= 1f || previousDigit.equals(digit)) {
                 drawStaticCard(canvas, rect, x, y, w, h, dimmed);
@@ -1024,15 +1053,15 @@ public class MainActivity extends Activity {
             if (progress < 0.5f) {
                 float fold = easeInCubic(progress / 0.5f);
                 float angle = -86f * fold;
-                drawHalfCard(canvas, rect, bottom, previousDigit, color, x, y, w, h, dimmed);
-                drawRotatingHalf(canvas, previousDigit, rect, top, color, x, y, w, h, x + w / 2f, hinge, angle, dimmed);
-                drawSoftShadow(canvas, top, (int) (78 * fold), false);
+                drawHalfCard(canvas, rect, bottomRect, previousDigit, color, x, y, w, h, dimmed);
+                drawRotatingHalf(canvas, previousDigit, rect, topRect, color, x, y, w, h, x + w / 2f, hinge, angle, dimmed);
+                drawSoftShadow(canvas, topRect, (int) (78 * fold), false);
             } else {
                 float fold = easeOutCubic((progress - 0.5f) / 0.5f);
                 float angle = 86f * (1f - fold);
-                drawHalfCard(canvas, rect, top, digit, color, x, y, w, h, dimmed);
-                drawRotatingHalf(canvas, digit, rect, bottom, color, x, y, w, h, x + w / 2f, hinge, angle, dimmed);
-                drawSoftShadow(canvas, bottom, (int) (76 * (1f - fold)), true);
+                drawHalfCard(canvas, rect, topRect, digit, color, x, y, w, h, dimmed);
+                drawRotatingHalf(canvas, digit, rect, bottomRect, color, x, y, w, h, x + w / 2f, hinge, angle, dimmed);
+                drawSoftShadow(canvas, bottomRect, (int) (76 * (1f - fold)), true);
             }
             drawCardFrame(canvas, rect, x, y, w, h, dimmed);
         }
@@ -1053,10 +1082,12 @@ public class MainActivity extends Activity {
         private void drawCardBase(Canvas canvas, RectF rect, float x, float y, float w, float h, boolean includeHighlights, boolean includeOuterLight, boolean dimmed) {
             float radius = 8f;
             paint.setColor(Color.argb(dimmed ? 108 : 72, 0, 0, 0));
-            canvas.drawRoundRect(new RectF(x + 1f, y + 7f, x + w + 1f, y + h + 9f), radius + 1f, radius + 1f, paint);
+            tempRect.set(x + 1f, y + 7f, x + w + 1f, y + h + 9f);
+            canvas.drawRoundRect(tempRect, radius + 1f, radius + 1f, paint);
             if (includeOuterLight) {
                 paint.setColor(dimmed ? Color.rgb(5, 5, 6) : Color.rgb(7, 8, 9));
-                canvas.drawRoundRect(new RectF(x, y, x + w, y + h), radius, radius, paint);
+                tempRect.set(x, y, x + w, y + h);
+                canvas.drawRoundRect(tempRect, radius, radius, paint);
             }
             paint.setShader(new LinearGradient(0, y, 0, y + h,
                     dimmed ? new int[]{
@@ -1123,15 +1154,15 @@ public class MainActivity extends Activity {
             float capsuleW = Math.max(7f, hingeH * 1.7f);
             float capsuleH = Math.max(3f, hingeH * 0.72f);
             float capInset = Math.max(5f, hingeH * 1.2f);
-            RectF leftCap = new RectF(x + capInset, hinge - capsuleH / 2f, x + capInset + capsuleW, hinge + capsuleH / 2f);
-            RectF rightCap = new RectF(x + w - capInset - capsuleW, hinge - capsuleH / 2f, x + w - capInset, hinge + capsuleH / 2f);
-            canvas.drawRoundRect(leftCap, capsuleH / 2f, capsuleH / 2f, paint);
-            canvas.drawRoundRect(rightCap, capsuleH / 2f, capsuleH / 2f, paint);
+            tempRect.set(x + capInset, hinge - capsuleH / 2f, x + capInset + capsuleW, hinge + capsuleH / 2f);
+            tempRect2.set(x + w - capInset - capsuleW, hinge - capsuleH / 2f, x + w - capInset, hinge + capsuleH / 2f);
+            canvas.drawRoundRect(tempRect, capsuleH / 2f, capsuleH / 2f, paint);
+            canvas.drawRoundRect(tempRect2, capsuleH / 2f, capsuleH / 2f, paint);
             paint.setColor(Color.argb(dimmed ? 8 : 31, 255, 255, 255));
             paint.setStyle(Paint.Style.STROKE);
             paint.setStrokeWidth(0.7f);
-            canvas.drawRoundRect(leftCap, capsuleH / 2f, capsuleH / 2f, paint);
-            canvas.drawRoundRect(rightCap, capsuleH / 2f, capsuleH / 2f, paint);
+            canvas.drawRoundRect(tempRect, capsuleH / 2f, capsuleH / 2f, paint);
+            canvas.drawRoundRect(tempRect2, capsuleH / 2f, capsuleH / 2f, paint);
             paint.setStyle(Paint.Style.FILL);
         }
 
