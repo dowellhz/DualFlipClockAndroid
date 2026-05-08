@@ -4,6 +4,11 @@ DualFlipClock Android is a native Android version of the dual flip clock app. It
 
 The app is intentionally simple at runtime: it draws the clock UI directly with a custom Android `View`, keeps the screen awake, and stores the selected locations and layout mode in local preferences.
 
+## Downloads
+
+- Android: [Download DualFlipClock Android 1.1](https://github.com/dowellhz/DualFlipClockAndroid/releases/download/v1.1/DualFlipClockAndroid-1.1.apk)
+- iOS: [Download DualFlipClock on the App Store](https://apps.apple.com/us/app/dualflipclock/id6766014702?l=zh-Hans-CN)
+
 ## Screenshots
 
 | Side-by-side clocks | Stacked clocks |
