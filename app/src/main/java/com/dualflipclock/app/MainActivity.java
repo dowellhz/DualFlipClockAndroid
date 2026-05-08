@@ -794,7 +794,7 @@ public class MainActivity extends Activity {
 
             textPaint.setColor(withAlpha(color, 220));
             textPaint.setTextSize(titleSize);
-            fitText(canvas, title, x, titleY, labelWidth, textPaint, 0.50f);
+            drawTextWithWeatherIcon(canvas, title, x, titleY, labelWidth, titleSize * 1.16f, weather, textPaint, color, 0.50f);
 
             textPaint.setColor(withAlpha(color, 112));
             textPaint.setTextSize(detailSize);
