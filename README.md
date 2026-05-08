@@ -16,7 +16,7 @@ The app is intentionally simple at runtime: it draws the clock UI directly with 
 
 ## Video
 
-<video src="docs/videos/stacked-clock.mp4" controls width="100%"></video>
+<video src="https://raw.githubusercontent.com/dowellhz/DualFlipClockAndroid/main/docs/videos/stacked-clock.mp4" controls width="100%"></video>
 
 [Watch the stacked clock demo](docs/videos/stacked-clock.mp4)
 
