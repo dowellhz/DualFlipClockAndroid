@@ -4,6 +4,16 @@ DualFlipClock Android is a native Android version of the dual flip clock app. It
 
 The app is intentionally simple at runtime: it draws the clock UI directly with a custom Android `View`, keeps the screen awake, and stores the selected locations and layout mode in local preferences.
 
+## Screenshots
+
+| Side-by-side clocks | Stacked clocks |
+| --- | --- |
+| ![Side-by-side dual flip clock view](docs/screenshots/side-by-side.png) | ![Stacked dual flip clock view](docs/screenshots/stacked.png) |
+
+| Location picker |
+| --- |
+| ![City, university, and high-school picker](docs/screenshots/location-picker.png) |
+
 ## Features
 
 - Full-screen landscape dual flip clock.
