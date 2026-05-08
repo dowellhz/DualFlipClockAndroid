@@ -14,6 +14,12 @@ The app is intentionally simple at runtime: it draws the clock UI directly with 
 | --- |
 | ![City, university, and high-school picker](docs/screenshots/location-picker.png) |
 
+## Video
+
+<video src="docs/videos/stacked-clock.mp4" controls width="100%"></video>
+
+[Watch the stacked clock demo](docs/videos/stacked-clock.mp4)
+
 ## Features
 
 - Full-screen landscape dual flip clock.
